@@ -1,0 +1,81 @@
+<template>
+  <div class="row bg-accent" style="width:600px;">
+    <div class="col-12">
+      <q-card v-if="show === false" class="bg-accent text-white" style="min-height:100vh;">
+        <q-card-section>
+          <div class="text-h6">
+            <q-btn dense flat icon="close" v-close-popup></q-btn>
+          </div>
+        </q-card-section>
+
+        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Tiendas online</q-card-section>
+        <q-card-section class="text-center text-h2 text-bold q-pt-xl">
+          <img src style="height:200px;" alt />
+        </q-card-section>
+        <q-card-section class="q-pa-xl">
+          <span>Una tienda virtual (o tienda online) es un sitio web donde los vendedores ponen a disposición de sus clientes los productos o servicios mostrándolos a través de imágenes o vídeos y explicando en detalle las características que estos ofrecen.</span>
+          <br />
+          <br />
+          <span>
+            <b>Características de un Tienda Virtual</b>
+            <br />
+            <br />- Permanece “abierta” todo el día. Se puede vender durante los 365 días del año.
+            <br />- Permite llegar a más clientes (amplía el mercado si es que se puede enviar el producto).
+            <br />- Reduce costos. Comparada con una tienda física los costos son mucho menores.
+            <br />- Incluyen un sistema de registro de usuario.
+            <br />- Incluyen un sistema de calificación. Los usuarios clasifican al vendedor sobre el producto, tiempos de entrega, etc. determinando el grado de confianza del vendedor y la calidad del producto/servicio.
+          </span>
+          <q-card-section class="text-center text-h2 text-bold">
+            <q-btn
+              label="Contratar servicio"
+              color="secondary"
+              rounded
+              outline
+              @click="show = true"
+            ></q-btn>
+          </q-card-section>
+        </q-card-section>
+      </q-card>
+      <q-card
+        v-if="show === true"
+        class="bg-primary text-white shadow-15 q-ma-xl"
+        style="border-radius:20px;"
+      >
+        <q-card-section>
+          <div class="text-h6">
+            <q-btn dense flat icon="close" @click="show = false"></q-btn>
+          </div>
+        </q-card-section>
+
+        <q-card-section class="text-center text-h2 text-bold">
+          <q-input filled dark v-model="nombre" label="Nombre" />
+          <q-input
+            dark
+            class="q-mt-md"
+            label="Observaciones"
+            v-model="Observaciones"
+            filled
+            type="textarea"
+          />
+        </q-card-section>
+
+        <q-card-section class="text-center text-h2 text-bold">
+          <q-btn label="Enviar" color="secondary" rounded outline></q-btn>
+        </q-card-section>
+      </q-card>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "tiendaOnline",
+  components: {},
+  data() {
+    return {
+      show: false,
+      nombre: "",
+      Observaciones: ""
+    };
+  }
+};
+</script>
