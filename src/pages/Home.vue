@@ -54,7 +54,7 @@
       <div
         :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row justify-between'"
       >
-        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-12 col-xs-12">
+        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-12 col-xs-12 xs-hide sm-hide">
           <img src="/statics/img/forma2.svg" alt />
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10 self-center q-pa-sm">
@@ -123,6 +123,80 @@
                 @click="openModalEquipo('Cesar Amaya')"
                 dark
                 class="bg-primary my-card shadow-10 q-ma-sm card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 md-hide xl-hide lg-hide">
+          <div class="row justify-center">
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Ariana Toro')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Anderson Perales')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Jonathan Pérez')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Elias Estrabao')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Ronald Vizcaya')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Jose Alejandro')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Cesar Amaya')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
                 style="width:100%; min-height:170px; border-radius:15px;"
               >
                 <q-card-section></q-card-section>
@@ -199,12 +273,55 @@
             rounded
           />
         </div>
+        <div class="col-10 q-mt-xl md-hide xl-hide lg-hide">
+          <div class="row justify-center">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-img src="/statics/img/" height="100px" />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h5 text-bold">Tasa.cash</div>
+                  <div
+                    class="text-caption text-grey"
+                  >Small plates, salads & sandwiches in an intimate setting.</div>
+                </q-card-section>
+
+                <q-separator />
+              </q-card>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-img src="/statics/img/" height="150px" />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h5 text-bold">Orinoco.io</div>
+                  <div
+                    class="text-caption text-grey"
+                  >Small plates, salads & sandwiches in an intimate setting.</div>
+                </q-card-section>
+
+                <q-separator />
+              </q-card>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-img src="/statics/img/" height="100px" />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h5 text-bold">Janken</div>
+                  <div
+                    class="text-caption text-grey"
+                  >Small plates, salads & sandwiches in an intimate setting.</div>
+                </q-card-section>
+
+                <q-separator />
+              </q-card>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- FIN SECCION PORTAFOLIO -->
 
     <!-- SERVICIOS -->
-    <div class="col-12 bg-accent" style="min-height:100vh; padding-top:50px;">
+    <div class="col-12 bg-accent" style="min-height:100vh;">
       <div class="row justify-center text-center">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10">
           <span class="text-h2 text-bold text-secondary">Nuestros servicios</span>
