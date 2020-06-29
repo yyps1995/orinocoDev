@@ -94,7 +94,7 @@
               >
                 <q-card-section>
                   <q-avatar size="60px">
-                    <img src="/statics/img/andersonFotoCarnet.jpg" />
+                    <img src="/statics/img/andersoFotoCarnet.jpg" />
                   </q-avatar>
                 </q-card-section>
                 <q-card-section>
@@ -141,11 +141,11 @@
               >
                 <q-card-section>
                   <q-avatar size="60px">
-                    <img src="/statics/img/ronaldFotoCarnet.jpg" />
+                    <img src="/statics/img/ronalFotoCarnet.jpg" />
                   </q-avatar>
                 </q-card-section>
                 <q-card-section>
-                  <span class="text-h6">Ronald Vizcaya'</span>
+                  <span class="text-h6">Ronald Vizcaya</span>
                 </q-card-section>
               </q-card>
               <q-card
@@ -194,7 +194,7 @@
               >
                 <q-card-section>
                   <q-avatar size="60px">
-                    <img src="/statics/img/andersonFotoCarnet.jpg" />
+                    <img src="/statics/img/andersoFotoCarnet.jpg" />
                   </q-avatar>
                 </q-card-section>
                 <q-card-section>
@@ -245,7 +245,7 @@
               >
                 <q-card-section>
                   <q-avatar size="60px">
-                    <img src="/statics/img/ronaldFotoCarnet.jpg" />
+                    <img src="/statics/img/ronalFotoCarnet.jpg" />
                   </q-avatar>
                 </q-card-section>
                 <q-card-section>
@@ -307,7 +307,7 @@
                 <q-card-section></q-card-section>
               </q-card>
             </div>
-            <div class="col-5 q-ma-xs">
+            <!-- <div class="col-5 q-ma-xs">
               <q-card
                 @click="openModalEquipo('Jose Alejandro')"
                 dark
@@ -326,7 +326,7 @@
               >
                 <q-card-section></q-card-section>
               </q-card>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
@@ -340,52 +340,34 @@
           class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-md self-center xs-hide sm-hide"
         >
           <div class="row justify-center text-center">
-            <div class="col-3 text-center q-pa-sm self-center">
-              <q-card
-                class="my-card shadow-13 bg-primary q-pa-md"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/janken.svg" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold q-mt-sm">Janken</div>
-                  <!-- <div
-                    class="text-caption text-grey"
-                  >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="col-3 q-pa-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <img src="/statics/img/janken.svg" />
                 </q-card-section>
-
-                <q-separator />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">Janken</div>
+                </q-card-section>
               </q-card>
             </div>
-            <div class="col-3 q-pa-sm self-center">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/tasa.svg" width="75%" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Tasa.cash</div>
-                  <!-- <div
-                    class="text-caption text-grey"
-                  >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="col-3 q-pa-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <img src="/statics/img/tasa.svg" />
                 </q-card-section>
-
-                <q-separator />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">Tasa</div>
+                </q-card-section>
               </q-card>
             </div>
-            <div class="col-4 q-pa-sm">
-              <q-card
-                class="my-card q-pa-md text-center shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/colibri.svg" style="width:90%;" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Orinoco.io</div>
-                  <!-- <div
-                    class="text-caption text-grey"
-                  >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="col-3 q-pa-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <img src="/statics/img/colibri.svg" />
                 </q-card-section>
-
-                <q-separator />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">orinoco</div>
+                </q-card-section>
               </q-card>
             </div>
           </div>
@@ -417,12 +399,7 @@
                 <img src="/statics/img/tasa.svg" width="75%" />
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h5 text-bold">Tasa.cash</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Small plates, salads & sandwiches in an intimate setting.</div>
                 </q-card-section>
-
-                <q-separator />
               </q-card>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm">
@@ -433,12 +410,7 @@
                 <img src="/statics/img/colibri.svg" height="150px" />
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h5 text-bold">Orinoco.io</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Small plates, salads & sandwiches in an intimate setting.</div>
                 </q-card-section>
-
-                <q-separator />
               </q-card>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
@@ -449,12 +421,7 @@
                 <img src="/statics/img/janken.svg" height="100px" />
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h5 text-bold">Janken</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Small plates, salads & sandwiches in an intimate setting.</div>
                 </q-card-section>
-
-                <q-separator />
               </q-card>
             </div>
           </div>
@@ -481,7 +448,7 @@
     <!-- FIN SERVICIOS -->
 
     <!-- TESTIMONIOS -->
-    <div
+    <!-- <div
       :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row justify-center q-pa-xl'"
       class="bg-accent"
     >
@@ -530,7 +497,7 @@
           </q-carousel-slide>
         </q-carousel>
       </div>
-    </div>
+    </div>-->
     <!-- FIN TESTIMONIOS -->
 
     <div class="row">
@@ -589,27 +556,27 @@
               <q-avatar size="100px">
                 <img
                   v-if="this.nombre === 'Jonathan Pérez'"
-                  src="/statics/img/andersonFotoCarnet.jpg"
+                  src="/statics/img/jonathanFotoCarnet.jpg"
                   alt
                 />
                 <img
                   v-if="this.nombre === 'Ariana Toro'"
-                  src="/statics/img/andersonFotoCarnet.jpg"
+                  src="/statics/img/arianaFotoCarnet.jpg"
                   alt
                 />
                 <img
                   v-if="this.nombre === 'Anderson Perales'"
-                  src="/statics/img/andersonFotoCarnet.jpg"
+                  src="/statics/img/andersoFotoCarnet.jpg"
                   alt
                 />
                 <img
                   v-if="this.nombre === 'Elias Estrabao'"
-                  src="/statics/img/andersonFotoCarnet.jpg"
+                  src="/statics/img/eliasFotoCarnet.jpg"
                   alt
                 />
                 <img
                   v-if="this.nombre === 'Ronald Vizcaya'"
-                  src="/statics/img/ronaldFotoCarnet.jpg"
+                  src="/statics/img/ronalFotoCarnet.jpg"
                   alt
                 />
               </q-avatar>
@@ -622,9 +589,7 @@
               <span
                 v-if="this.nombre === 'Jonathan Pérez'"
               >Apasionado por la teconología y el diseño web</span>
-              <span
-                v-if="this.nombre === 'Ariana Toro'"
-              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
+              <span v-if="this.nombre === 'Ariana Toro'">Programar es mi</span>
               <span
                 v-if="this.nombre === 'Anderson Perales'"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
@@ -669,7 +634,49 @@
                 </div>
                 <div
                   class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-                ></div>
+                >javascript</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >java</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >html</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >css</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >vue.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >quasar.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >javaFx</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >npm</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >maven</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >mysql</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >mongodb</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >node.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >graphql</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >apollo</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >git</div>
               </div>
 
               <div class="row justify-center" v-if="this.nombre === 'Anderson Perales'">
