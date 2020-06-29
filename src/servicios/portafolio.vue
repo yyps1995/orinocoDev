@@ -9,9 +9,9 @@
         </q-card-section>
 
         <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Portafolios</q-card-section>
-        <q-card-section class="text-center text-h2 text-bold q-pt-xl">
+        <!-- <q-card-section class="text-center text-h2 text-bold q-pt-xl">
           <img src style="height:200px;" alt />
-        </q-card-section>
+        </q-card-section>-->
         <q-card-section class="q-pa-xl">
           <span>Un portafolio online es una forma única de mostrar su trabajo y le permite que otras personas sepan más de usted. Es una plataforma base para sus proyectos, estudios de caso, y toda la información acerca de usted. Además de esto, es una de las mejores formas para expresar su personalidad, experiencia y capacidades.</span>
           <br />
@@ -41,18 +41,28 @@
 
         <q-card-section class="text-center text-h2 text-bold">
           <q-input filled dark v-model="nombre" label="Nombre" />
-          <q-input
+          <q-input filled dark v-model="apellido" label="Apellido" />
+          <q-input filled dark v-model="servicio" label="servicio" disable />
+          <!-- <q-input
             dark
             class="q-mt-md"
             label="Observaciones"
             v-model="Observaciones"
             filled
             type="textarea"
-          />
+          />-->
         </q-card-section>
 
         <q-card-section class="text-center text-h2 text-bold">
-          <q-btn label="Enviar" color="secondary" rounded outline></q-btn>
+          <q-btn
+            label="Enviar"
+            type="a"
+            target="_blank"
+            :href="'https://wa.me/5704148098295?text=Buen%20dia,%20mi%20nombre%20es%20'+ nombre +'%20' + apellido +'%20,me%20contacto%20por%20la%20pagina%20web,%20quisiera%20mas%20información%20sobre%20el%20desarrollo%20de%20un%20'+ servicio +''"
+            color="secondary"
+            rounded
+            outline
+          ></q-btn>
         </q-card-section>
       </q-card>
     </div>
@@ -65,8 +75,9 @@ export default {
   data() {
     return {
       show: false,
+      apellido: "",
       nombre: "",
-      Observaciones: ""
+      servicio: "Portafolio"
     };
   }
 };

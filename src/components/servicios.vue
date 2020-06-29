@@ -8,7 +8,9 @@
     <hooper :settings="hooperSettings">
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-img src="https://cdn.quasar.dev/img/chicken-salad.jpg" height="200px" />
+          <q-card-section align="center">
+            <img src="/statics/img/blog.png" style="width:50%;" />
+          </q-card-section>
 
           <q-card-section>
             <q-btn
@@ -30,13 +32,15 @@
           <q-separator />
 
           <q-card-actions>
-            <q-btn flat color="secondary" @click="openModal('blog')">Mas información</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('blog')">Mas información</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-img src="https://cdn.quasar.dev/img/chicken-salad.jpg" height="200px" />
+          <q-card-section align="center">
+            <img src="/statics/img/lading.png" style="width:50%;" />
+          </q-card-section>
 
           <q-card-section>
             <q-btn
@@ -58,13 +62,15 @@
           <q-separator />
 
           <q-card-actions>
-            <q-btn flat color="secondary" @click="openModal('landingPage')">Mas información</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('landingPage')">Mas información</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-img src="https://cdn.quasar.dev/img/chicken-salad.jpg" height="200px" />
+          <q-card-section align="center">
+            <img src="/statics/img/portafolio.png" style="width:50%;" />
+          </q-card-section>
 
           <q-card-section>
             <q-btn
@@ -86,14 +92,18 @@
           <q-separator />
 
           <q-card-actions>
-            <q-btn flat color="secondary" @click="openModal('portafolio')">Mas información</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('portafolio')">Mas información</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
-        <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-img src="https://cdn.quasar.dev/img/chicken-salad.jpg" height="200px" />
-
+        <q-card
+          class="my-card text-center shadow-13 bg-primary"
+          style="width:100%; border-radius:15px;"
+        >
+          <q-card-section align="center">
+            <img src="/statics/img/tienda.png" style="width:50%;" />
+          </q-card-section>
           <q-card-section>
             <q-btn
               fab
@@ -114,13 +124,15 @@
           <q-separator />
 
           <q-card-actions>
-            <q-btn flat color="secondary" @click="openModal('tiendaOnline')">Mas información</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('tiendaOnline')">Mas información</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-img src="https://cdn.quasar.dev/img/chicken-salad.jpg" height="200px" />
+          <q-card-section align="center">
+            <img src="/statics/img/personalizado.png" style="width:50%;" />
+          </q-card-section>
 
           <q-card-section>
             <q-btn
@@ -142,7 +154,7 @@
           <q-separator />
 
           <q-card-actions>
-            <q-btn flat color="secondary" @click="openModal('personalizado')">Mas información</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('personalizado')">Mas información</q-btn>
           </q-card-actions>
         </q-card>
       </slide>

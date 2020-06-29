@@ -9,9 +9,9 @@
         </q-card-section>
 
         <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Tiendas online</q-card-section>
-        <q-card-section class="text-center text-h2 text-bold q-pt-xl">
+        <!-- <q-card-section class="text-center text-h2 text-bold q-pt-xl">
           <img src style="height:200px;" alt />
-        </q-card-section>
+        </q-card-section>-->
         <q-card-section class="q-pa-xl">
           <span>Una tienda virtual (o tienda online) es un sitio web donde los vendedores ponen a disposición de sus clientes los productos o servicios mostrándolos a través de imágenes o vídeos y explicando en detalle las características que estos ofrecen.</span>
           <br />
@@ -49,18 +49,28 @@
 
         <q-card-section class="text-center text-h2 text-bold">
           <q-input filled dark v-model="nombre" label="Nombre" />
-          <q-input
+          <q-input filled dark v-model="apellido" label="Apellido" />
+          <q-input filled dark v-model="servicio" label="servicio" disable />
+          <!-- <q-input
             dark
             class="q-mt-md"
             label="Observaciones"
             v-model="Observaciones"
             filled
             type="textarea"
-          />
+          />-->
         </q-card-section>
 
         <q-card-section class="text-center text-h2 text-bold">
-          <q-btn label="Enviar" color="secondary" rounded outline></q-btn>
+          <q-btn
+            label="Enviar"
+            type="a"
+            target="_blank"
+            :href="'https://wa.me/5704148098295?text=Buen%20dia,%20mi%20nombre%20es%20'+ nombre +'%20' + apellido +'%20,me%20contacto%20por%20la%20pagina%20web,%20quisiera%20mas%20información%20sobre%20el%20desarrollo%20de%20una%20'+ servicio +''"
+            color="secondary"
+            rounded
+            outline
+          ></q-btn>
         </q-card-section>
       </q-card>
     </div>
@@ -73,8 +83,9 @@ export default {
   data() {
     return {
       show: false,
+      apellido: "",
       nombre: "",
-      Observaciones: ""
+      servicio: "Tienda Online"
     };
   }
 };

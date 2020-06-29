@@ -2,18 +2,15 @@
   <section>
     <q-header class="bg-transparent">
       <q-toolbar>
-            <q-btn
-              class="lg-hide xl-hide md-hide"
-              flat
-              @click="drawer = !drawer"
-              color="white"
-              round
-              dense
-              icon="menu"
-            />
-        <q-avatar>
-          <img src="/statics/img/colibri.svg" style="width: 80%"></q-img>
-        </q-avatar>
+        <q-btn
+          class="lg-hide xl-hide md-hide"
+          flat
+          @click="drawer = !drawer"
+          color="white"
+          round
+          dense
+          icon="menu"
+        />
       </q-toolbar>
     </q-header>
 

@@ -2,7 +2,7 @@
 </style>
 <template>
   <q-layout view="hhh lpR fff">
-    <Header></Header>
+    <!-- <Header></Header> -->
     <q-page-container class="bg-primary text-white" style="min-height:100vh;">
       <router-view />
     </q-page-container>
