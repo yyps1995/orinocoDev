@@ -547,7 +547,7 @@
             <q-card-section class>
               <span
                 v-if="this.nombre === 'Jonathan Pérez'"
-              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
+              >Apasionado por la teconología y el diseño web</span>
               <span v-if="this.nombre === 'Ariana Toro'"></span>
               <span
                 v-if="this.nombre === 'Anderson Perales'"
