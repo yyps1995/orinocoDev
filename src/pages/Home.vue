@@ -255,6 +255,80 @@
             </div>
           </div>
         </div>
+        <div class="col-10 md-hide xl-hide lg-hide">
+          <div class="row justify-center">
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Ariana Toro')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Anderson Perales')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Jonathan Pérez')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Elias Estrabao')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Ronald Vizcaya')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Jose Alejandro')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+            <div class="col-5 q-ma-xs">
+              <q-card
+                @click="openModalEquipo('Cesar Amaya')"
+                dark
+                class="bg-primary my-card shadow-10 card-hover"
+                style="width:100%; min-height:170px; border-radius:15px;"
+              >
+                <q-card-section></q-card-section>
+              </q-card>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- FIN SECCION EQUIPO -->
