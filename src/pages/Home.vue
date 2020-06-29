@@ -622,7 +622,9 @@
               <span
                 v-if="this.nombre === 'Jonathan Pérez'"
               >Apasionado por la teconología y el diseño web</span>
-              <span v-if="this.nombre === 'Ariana Toro'"></span>
+              <span
+                v-if="this.nombre === 'Ariana Toro'"
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
               <span
                 v-if="this.nombre === 'Anderson Perales'"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
