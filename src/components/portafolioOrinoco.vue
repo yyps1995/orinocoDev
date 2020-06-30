@@ -9,7 +9,7 @@
     <q-card-section class="q-pt-none">
       <div class="row justify-center">
         <div class="col-12 text-center q-ma-xl">
-          <span class="text-h4 text-secondary text-bold">Nuestro portafolio de productos</span>
+          <span class="text-h4 text-white text-bold">Nuestro portafolio de productos</span>
           <br />
           <img src="/statics/img/flecha-verde.svg" style="width: 35%" />
         </div>

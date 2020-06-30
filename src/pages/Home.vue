@@ -11,6 +11,9 @@
   background-size: cover;
   background-color: #c7c5c5;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>
 <template>
   <section>
@@ -32,22 +35,56 @@
             <q-btn
               color="orange-5"
               type="a"
-              href="https://wa.me/5704148098295"
+              href="https://wa.me/5804148098295"
               class="full-width"
-              label="Contactanos"
+              label="CONTÁCTANOS"
               outline
               rounded
             />
           </div>
         </div>
-        <!-- <div class="row justify-center q-mt-xl text-orange-5">
-          <div class="col">Link</div>
-          <div class="col">Link</div>
-          <div class="col">Link</div>
-          <div class="col">Link</div>
-          <div class="col">Link</div>
-          <div class="col">Link</div>
-        </div>-->
+        <div class="row justify-center q-mt-xl text-orange-5">
+          <scrollactive
+            class="my-nav"
+            active-class="active"
+            :offset="80"
+            :duration="800"
+            bezier-easing-value=".5,0,.35,1"
+          >
+            <q-btn
+              type="a"
+              href="#equipo"
+              label="Equipo"
+              class="scrollactive-item"
+              flat
+              color="orange-5"
+            />
+            <q-btn
+              type="a"
+              href="#portafolio"
+              label="Portafolio"
+              class="scrollactive-item"
+              flat
+              color="orange-5"
+            />
+            <q-btn
+              type="a"
+              href="#servicios"
+              label="Servicios"
+              class="scrollactive-item"
+              flat
+              color="orange-5"
+            />
+            <q-btn
+              type="a"
+              href="#contactos"
+              label="Contactos"
+              class="scrollactive-item"
+              flat
+              color="orange-5"
+            />
+          </scrollactive>
+        </div>
       </div>
       <!-- <div class="col-6 sm-hide xs-hide text-right" style="margin-top:-50px;">
         <img src="/statics/img/formaNegra.png" style="width:100%;" alt />
@@ -59,7 +96,11 @@
     <!-- FIN PORTADA -->
 
     <!-- SECCION EQUIPO -->
-    <div class="col-12 bg-accent q-pt-xl q-pb-xl" style="min-height:100vh;margin-top:-100px;">
+    <div
+      id="equipo"
+      class="col-12 bg-accent q-pt-xl q-pb-xl"
+      style="min-height:100vh;margin-top:-100px;"
+    >
       <div
         :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row justify-between'"
       >
@@ -334,7 +375,11 @@
     <!-- FIN SECCION EQUIPO -->
 
     <!-- SECCION PORTAFOLIO -->
-    <div class="col-12 bg-accent q-pt-xl q-pb-xl" style="min-height:100vh; padding-top:100px;">
+    <div
+      id="portafolio"
+      class="col-12 bg-accent q-pt-xl q-pb-xl"
+      style="min-height:100vh; padding-top:100px;"
+    >
       <div :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row'">
         <div
           class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-md self-center xs-hide sm-hide"
@@ -376,10 +421,7 @@
           <span class="text-h2 text-bold">Nuestro portafolio</span>
           <br />
           <img src="/statics/img/flecha-verde.png" style="width: 80%" />
-          <p class="text-h6">
-            Revisa nuestro portafolio de productos
-            hechos por nuestro equipo
-          </p>
+          <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
           <q-btn
             color="orange-5"
             @click="openModalPortafolio()"
@@ -431,16 +473,13 @@
     <!-- FIN SECCION PORTAFOLIO -->
 
     <!-- SERVICIOS -->
-    <div class="col-12 bg-accent" style="min-height:100vh;">
+    <div id="servicios" class="col-12 bg-accent" style="min-height:100vh;">
       <div class="row justify-center text-center">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10">
           <span class="text-h2 text-bold">Nuestros servicios</span>
           <br />
           <img src="/statics/img/flecha-verde.png" style="width: 35%" />
-          <p class="text-h6">
-            te ofrecemos los servicos que estan de moda con la mejor tecnologia
-            de desarrollo
-          </p>
+          <p class="text-h6">Desarrollamos los software que están de moda con la mejor tecnología</p>
           <serviciosSlide class="q-mt-xl"></serviciosSlide>
         </div>
       </div>
@@ -508,16 +547,14 @@
 
     <!-- REDES SOCIALES -->
     <div
+      id="contactos"
       class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10 self-center text-center"
       style="padding-top:100px; padding-bottom:100px;;min-height:50vh;"
     >
       <span class="text-h2 text-bold">Nuestras redes sociales</span>
       <br />
       <img src="/statics/img/flecha-verde.png" style="width: 45%" />
-      <p class="text-h6">
-        Mantante conectato con nosotros a
-        traves de nuestras redes sociales
-      </p>
+      <p class="text-h6">Conéctate con OrinocoDev a través de nuestros diferentes canales</p>
       <div class="row justify-center">
         <div class="col-10">
           <redesSociales class="sm-hide xs-hide"></redesSociales>
@@ -589,7 +626,7 @@
               <span
                 v-if="this.nombre === 'Jonathan Pérez'"
               >Apasionado por la teconología y el diseño web</span>
-              <span v-if="this.nombre === 'Ariana Toro'">Programar es mi</span>
+              <span v-if="this.nombre === 'Ariana Toro'">Programar es mi pasión</span>
               <span
                 v-if="this.nombre === 'Anderson Perales'"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
