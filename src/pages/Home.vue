@@ -76,109 +76,117 @@ html {
       <!-- <div class="col-12 sm-hide xs-hide">
         <img src="/statics/img/forma1.svg" alt />
       </div>-->
-    </div>
-    <!-- FIN PORTADA -->
-
-    <!-- SECCION PORTAFOLIO -->
-    <div
-      id="portafolio"
-      class="col-12 bg-accent q-pt-xl q-pb-xl"
-      style="min-height:70vh;margin-top:-100px;"
-    >
-      <div :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row'">
-        <div
-          class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-md self-center xs-hide sm-hide"
-        >
-          <div class="row justify-center text-center">
-            <div class="col-3 q-pa-sm">
-              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-                <q-card-section>
-                  <img src="/statics/img/janken.svg" />
-                </q-card-section>
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">Janken</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-3 q-pa-sm">
-              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-                <q-card-section>
-                  <img src="/statics/img/tasa.svg" />
-                </q-card-section>
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">Tasa</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-3 q-pa-sm">
-              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-                <q-card-section>
-                  <img src="/statics/img/colibri.svg" />
-                </q-card-section>
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">orinoco</div>
-                </q-card-section>
-              </q-card>
+      <!-- SECCION PORTAFOLIO -->
+      <div
+        id="portafolio"
+        class="col-12 q-pt-xl q-pb-xl"
+        style="min-height:50vh;margin-top:-100px;background-color:#222222b9;"
+      >
+        <div :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row'">
+          <div
+            class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-md self-center xs-hide sm-hide"
+          >
+            <div class="row justify-center text-center">
+              <div class="col-3 q-pa-sm">
+                <q-card
+                  class="my-card shadow-13 bg-primary"
+                  style="width:100%; border-radius:15px;"
+                >
+                  <q-card-section>
+                    <img src="/statics/img/janken.svg" />
+                  </q-card-section>
+                  <q-card-section class="q-pt-none text-center">
+                    <div class="text-h6 text-bold">Janken</div>
+                  </q-card-section>
+                </q-card>
+              </div>
+              <div class="col-3 q-pa-sm">
+                <q-card
+                  class="my-card shadow-13 bg-primary"
+                  style="width:100%; border-radius:15px;"
+                >
+                  <q-card-section>
+                    <img src="/statics/img/tasa.svg" />
+                  </q-card-section>
+                  <q-card-section class="q-pt-none text-center">
+                    <div class="text-h6 text-bold">Tasa</div>
+                  </q-card-section>
+                </q-card>
+              </div>
+              <div class="col-3 q-pa-sm">
+                <q-card
+                  class="my-card shadow-13 bg-primary"
+                  style="width:100%; border-radius:15px;"
+                >
+                  <q-card-section>
+                    <img src="/statics/img/colibri.svg" />
+                  </q-card-section>
+                  <q-card-section class="q-pt-none text-center">
+                    <div class="text-h6 text-bold">orinoco</div>
+                  </q-card-section>
+                </q-card>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-10 col-xs-10 self-center">
-          <span class="text-h2 text-bold">Nuestro portafolio</span>
-          <br />
-          <!-- <img src="/statics/img/flecha-verde.png" style="width: 80%" /> -->
-          <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
-          <q-btn
-            color="orange-5"
-            @click="openModalPortafolio()"
-            class
-            outline
-            label="Conoce nuestro portafolio"
-            rounded
-          />
-        </div>
-        <div class="col-10 q-mt-xl md-hide xl-hide lg-hide">
-          <div class="row justify-center">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/tasa.svg" width="75%" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Tasa.cash</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/colibri.svg" height="150px" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Orinoco.io</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/janken.svg" height="100px" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Janken</div>
-                </q-card-section>
-              </q-card>
+          <div class="col-xl-5 col-lg-5 col-md-4 col-sm-10 col-xs-10 self-center">
+            <span class="text-h2 text-bold">Nuestro portafolio</span>
+            <br />
+            <!-- <img src="/statics/img/flecha-verde.png" style="width: 80%" /> -->
+            <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
+            <q-btn
+              color="orange-5"
+              @click="openModalPortafolio()"
+              class
+              outline
+              label="Conoce nuestro portafolio"
+              rounded
+            />
+          </div>
+          <div class="col-10 q-mt-xl md-hide xl-hide lg-hide">
+            <div class="row justify-center">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
+                <q-card
+                  class="my-card q-pa-md shadow-13 bg-primary"
+                  style="width:100%; border-radius:15px;"
+                >
+                  <img src="/statics/img/tasa.svg" width="75%" />
+                  <q-card-section class="q-pt-none text-center">
+                    <div class="text-h5 text-bold">Tasa.cash</div>
+                  </q-card-section>
+                </q-card>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm">
+                <q-card
+                  class="my-card q-pa-md shadow-13 bg-primary"
+                  style="width:100%; border-radius:15px;"
+                >
+                  <img src="/statics/img/colibri.svg" height="150px" />
+                  <q-card-section class="q-pt-none text-center">
+                    <div class="text-h5 text-bold">Orinoco.io</div>
+                  </q-card-section>
+                </q-card>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
+                <q-card
+                  class="my-card q-pa-md shadow-13 bg-primary"
+                  style="width:100%; border-radius:15px;"
+                >
+                  <img src="/statics/img/janken.svg" height="100px" />
+                  <q-card-section class="q-pt-none text-center">
+                    <div class="text-h5 text-bold">Janken</div>
+                  </q-card-section>
+                </q-card>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- FIN SECCION PORTAFOLIO -->
     </div>
-    <!-- FIN SECCION PORTAFOLIO -->
+    <!-- FIN PORTADA -->
 
     <!-- SERVICIOS -->
-    <div id="servicios" class="col-12 bg-accent" style>
+    <div id="servicios" class="col-12 bg-accent q-pt-xl" style>
       <div class="row justify-center text-center">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10">
           <span class="text-h2 text-bold">Nuestros servicios</span>
