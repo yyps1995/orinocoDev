@@ -209,7 +209,7 @@ html {
           <!-- <img src="/statics/img/flecha-verde.png" style="width: 90%;" /> -->
           <p
             class="text-h6"
-          >OrinocoDev esta conformado por un equipo joven de desarrolladores para llevar tu creatividad en realidad</p>
+          >OrinocoDev esta conformado por un equipo joven de desarrolladores para llevar tu creatividad a la realidad</p>
           <!-- <q-btn color="secondary" @click="openModal('equipo')" class label="Conocenos" rounded /> -->
         </div>
         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 sm-hide xs-hide">
