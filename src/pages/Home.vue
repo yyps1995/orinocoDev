@@ -111,9 +111,7 @@ html {
           <span class="text-h2 text-bold">Nuestro equipo</span>
           <br />
           <img src="/statics/img/flecha-verde.png" style="width: 90%;" />
-          <p
-            class="text-h6"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel harum velit? Aperiam illum repellendus, id temporibus fugiat non beatae? Porro magnam nobis quam nihil molestias fugit voluptas expedita ab.</p>
+          <p class="text-h6">OrinocoDev</p>
           <!-- <q-btn color="secondary" @click="openModal('equipo')" class label="Conocenos" rounded /> -->
         </div>
         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 sm-hide xs-hide">
@@ -626,7 +624,9 @@ html {
               <span
                 v-if="this.nombre === 'Jonathan Pérez'"
               >Apasionado por la teconología y el diseño web</span>
-              <span v-if="this.nombre === 'Ariana Toro'">Programar es mi pasión</span>
+              <span
+                v-if="this.nombre === 'Ariana Toro'"
+              >Me desempeño como backend developer y programar es mi ocupación y hobbie</span>
               <span
                 v-if="this.nombre === 'Anderson Perales'"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
