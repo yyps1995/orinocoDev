@@ -634,7 +634,7 @@ html {
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
               <span
                 v-if="this.nombre === 'Elias Estrabao'"
-              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
+              >Me gusta la innovación y la tecnología y el modo en que facilitan los procesos en la actualidad</span>
               <span
                 v-if="this.nombre === 'Ronald Vizcaya'"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
@@ -665,6 +665,15 @@ html {
                 <div
                   class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
                 >ilustrator</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >git</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >npm</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >bootstrap</div>
               </div>
 
               <div class="row justify-center" v-if="this.nombre === 'Ariana Toro'">
@@ -733,7 +742,31 @@ html {
                 </div>
                 <div
                   class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-                ></div>
+                >mongodb</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >php</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >javascript</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >node.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >vue.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >quasar.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >graphql</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >git</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >npm</div>
               </div>
 
               <div class="row justify-center" v-if="this.nombre === 'Ronald Vizcaya'">
@@ -742,7 +775,40 @@ html {
                 </div>
                 <div
                   class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-                ></div>
+                >aws</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >node.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >quasar.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >vue.js</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >css</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >html</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >servidores</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >git</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >npm</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >mongodb</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >graphql</div>
+                <div
+                  class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+                >bootstrap</div>
               </div>
             </q-card-section>
           </div>
