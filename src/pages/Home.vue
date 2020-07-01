@@ -31,7 +31,7 @@ html {
           <div class="col-12 text-h4">Transformamos tu creatividad en realidad</div>
         </div>
         <div class="row justify-center">
-          <div class="col-4">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-10">
             <q-btn
               color="orange-5"
               type="a"
@@ -269,7 +269,7 @@ html {
               >
                 <q-card-section>
                   <q-avatar size="60px">
-                    <img src="/statics/img/jeliasFotoCarnet.jpg" />
+                    <img src="/statics/img/eliasFotoCarnet.jpg" />
                   </q-avatar>
                 </q-card-section>
                 <q-card-section>
@@ -294,80 +294,6 @@ html {
                 </q-card-section>
               </q-card>
             </div>
-          </div>
-        </div>
-        <div class="col-10 md-hide xl-hide lg-hide">
-          <div class="row justify-center">
-            <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Ariana Toro')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>
-            <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Anderson Perales')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>
-            <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Jonathan Pérez')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>
-            <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Elias Estrabao')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>
-            <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Ronald Vizcaya')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>
-            <!-- <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Jose Alejandro')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>
-            <div class="col-5 q-ma-xs">
-              <q-card
-                @click="openModalEquipo('Cesar Amaya')"
-                dark
-                class="bg-primary my-card shadow-10 card-hover"
-                style="width:100%; min-height:170px; border-radius:15px;"
-              >
-                <q-card-section></q-card-section>
-              </q-card>
-            </div>-->
           </div>
         </div>
       </div>
@@ -557,7 +483,7 @@ html {
       <p class="text-h6">Conéctate con OrinocoDev a través de nuestros diferentes canales</p>
       <div class="row justify-center">
         <div class="col-10">
-          <redesSociales class="sm-hide xs-hide"></redesSociales>
+          <redesSociales></redesSociales>
         </div>
       </div>
     </div>
