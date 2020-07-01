@@ -8,7 +8,7 @@
       <q-page-sticky position="bottom-right" :offset="[18, 18]">
         <q-btn
           type="a"
-          href
+          href="https://www.facebook.com/orinoco.dev.58"
           target="_blank"
           class="q-ma-xs"
           fab
@@ -18,7 +18,7 @@
         <br />
         <q-btn
           type="a"
-          href
+          href="https://www.instagram.com/orinocodev2020/"
           target="_blank"
           class="q-ma-xs"
           fab
@@ -38,7 +38,7 @@
         <br />
         <q-btn
           type="a"
-          href
+          href="https://wa.me/5804148098295?text=Buen%20dia,%20quisiera%20información%20sobre%20sus%20productos"
           target="_blank"
           class="q-ma-xs"
           fab
