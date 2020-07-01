@@ -12,7 +12,7 @@
             <img src="/statics/img/blog.png" style="width:50%;" />
           </q-card-section>
 
-          <q-card-section>
+          <!-- <q-card-section>
             <q-btn
               fab
               color="accent"
@@ -20,13 +20,13 @@
               label="50$"
               style="top: 0; right: 12px; transform: translateY(-50%);"
             />
-          </q-card-section>
+          </q-card-section>-->
 
           <q-card-section class="q-pt-none">
             <div class="text-h5 text-bold">Blogs</div>
-            <div
+            <!-- <div
               class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>
+            >Small plates, salads & sandwiches in an intimate setting.</div>-->
           </q-card-section>
 
           <q-separator />
@@ -42,7 +42,7 @@
             <img src="/statics/img/lading.png" style="width:50%;" />
           </q-card-section>
 
-          <q-card-section>
+          <!-- <q-card-section>
             <q-btn
               fab
               color="accent"
@@ -50,13 +50,13 @@
               label="50$"
               style="top: 0; right: 12px; transform: translateY(-50%);"
             />
-          </q-card-section>
+          </q-card-section>-->
 
           <q-card-section class="q-pt-none">
             <div class="text-h5 text-bold">Landing Pages</div>
-            <div
+            <!-- <div
               class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>
+            >Small plates, salads & sandwiches in an intimate setting.</div>-->
           </q-card-section>
 
           <q-separator />
@@ -72,7 +72,7 @@
             <img src="/statics/img/portafolio.png" style="width:50%;" />
           </q-card-section>
 
-          <q-card-section>
+          <!-- <q-card-section>
             <q-btn
               fab
               color="accent"
@@ -80,13 +80,13 @@
               label="50$"
               style="top: 0; right: 12px; transform: translateY(-50%);"
             />
-          </q-card-section>
+          </q-card-section>-->
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Portafolio</div>
-            <div
+            <div class="text-h5 text-bold">Portafolios</div>
+            <!-- <div
               class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>
+            >Small plates, salads & sandwiches in an intimate setting.</div>-->
           </q-card-section>
 
           <q-separator />
@@ -104,7 +104,7 @@
           <q-card-section align="center">
             <img src="/statics/img/tienda.png" style="width:50%;" />
           </q-card-section>
-          <q-card-section>
+          <!-- <q-card-section>
             <q-btn
               fab
               color="accent"
@@ -112,13 +112,13 @@
               label="50$"
               style="top: 0; right: 12px; transform: translateY(-50%);"
             />
-          </q-card-section>
+          </q-card-section>-->
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Tienda Online</div>
-            <div
+            <div class="text-h5 text-bold">Tiendas Online</div>
+            <!-- <div
               class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>
+            >Small plates, salads & sandwiches in an intimate setting.</div>-->
           </q-card-section>
 
           <q-separator />
@@ -134,7 +134,7 @@
             <img src="/statics/img/personalizado.png" style="width:50%;" />
           </q-card-section>
 
-          <q-card-section>
+          <!-- <q-card-section>
             <q-btn
               fab
               color="accent"
@@ -142,13 +142,13 @@
               label="50$"
               style="top: 0; right: 12px; transform: translateY(-50%);"
             />
-          </q-card-section>
+          </q-card-section>-->
 
           <q-card-section class="q-pt-none">
             <div class="text-h5 text-bold">Personalizado</div>
-            <div
+            <!-- <div
               class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>
+            >Small plates, salads & sandwiches in an intimate setting.</div>-->
           </q-card-section>
 
           <q-separator />

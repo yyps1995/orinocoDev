@@ -21,7 +21,7 @@ module.exports = function(/* ctx */) {
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
       // 'ionicons-v4',
-      // 'mdi-v5',
+      "mdi-v5",
       // 'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
@@ -51,7 +51,7 @@ module.exports = function(/* ctx */) {
         },
         brand: {
           primary: "#2e3037",
-          secondary: "#9be3b8",
+          secondary: "#FFA900",
           accent: "#22242b",
           positive: "#439dff",
           negative: "#1a1d25",
@@ -103,7 +103,10 @@ module.exports = function(/* ctx */) {
         "QTabPanels",
         "QTabPanel",
         "QSplitter",
-        "QRating"
+        "QRating",
+        "QFab",
+        "QFabAction",
+        "QPageSticky"
       ],
 
       directives: ["Ripple", "ClosePopup"],

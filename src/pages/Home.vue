@@ -21,27 +21,19 @@ html {
     <div class="row justify-center text-center home">
       <div
         class="col-xl-5 col-lg-5 col-md-5 col-sm-10 col-xs-10 q-mt-xl"
-        style="padding-top:200px;min-height:110vh;"
+        style="padding-top:150px;min-height:100vh;"
       >
-        <span class="text-h2 text-bold">Orinoco</span>
-        <span class="text-h2 text-bold text-orange-5">Dev</span>
+        <span :class="($q.screen.lt.md) ? 'text-h3 text-bold' : 'text-h1 text-bold'">Orinoco</span>
+        <span
+          :class="($q.screen.lt.md) ? 'text-h3 text-bold text-orange-5' : 'text-h1 text-bold text-orange-5'"
+        >Dev</span>
         <br />
-        <img src="/statics/img/flecha-verde.png" style="width: 50%;" />
+        <img src="/statics/img/flecha-verde.png" style="width: 75%;" />
         <div class="row q-mt-sm q-mb-md">
-          <div class="col-12 text-h4">Transformamos tu creatividad en realidad</div>
-        </div>
-        <div class="row justify-center">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-10">
-            <q-btn
-              color="orange-5"
-              type="a"
-              href="https://wa.me/5804148098295"
-              class="full-width"
-              label="CONTÁCTANOS"
-              outline
-              rounded
-            />
-          </div>
+          <div
+            :class="($q.screen.lt.md) ? 'col-12 text-h6' : 'col-12 text-h4'"
+            class="col-12 text-h4"
+          >Transformamos tu creatividad en realidad</div>
         </div>
         <div class="row justify-center q-mt-xl text-orange-5">
           <scrollactive
@@ -51,14 +43,6 @@ html {
             :duration="800"
             bezier-easing-value=".5,0,.35,1"
           >
-            <q-btn
-              type="a"
-              href="#equipo"
-              label="Equipo"
-              class="scrollactive-item"
-              flat
-              color="orange-5"
-            />
             <q-btn
               type="a"
               href="#portafolio"
@@ -77,8 +61,8 @@ html {
             />
             <q-btn
               type="a"
-              href="#contactos"
-              label="Contactos"
+              href="#equipo"
+              label="Equipo"
               class="scrollactive-item"
               flat
               color="orange-5"
@@ -89,17 +73,129 @@ html {
       <!-- <div class="col-6 sm-hide xs-hide text-right" style="margin-top:-50px;">
         <img src="/statics/img/formaNegra.png" style="width:100%;" alt />
       </div>-->
-      <div class="col-12">
+      <div class="col-12 sm-hide xs-hide">
         <img src="/statics/img/forma1.svg" alt />
       </div>
     </div>
     <!-- FIN PORTADA -->
 
+    <!-- SECCION PORTAFOLIO -->
+    <div
+      id="portafolio"
+      class="col-12 bg-accent q-pt-xl q-pb-xl"
+      style="min-height:70vh;margin-top:-100px;"
+    >
+      <div :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row'">
+        <div
+          class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-md self-center xs-hide sm-hide"
+        >
+          <div class="row justify-center text-center">
+            <div class="col-3 q-pa-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <img src="/statics/img/janken.svg" />
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">Janken</div>
+                </q-card-section>
+              </q-card>
+            </div>
+            <div class="col-3 q-pa-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <img src="/statics/img/tasa.svg" />
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">Tasa</div>
+                </q-card-section>
+              </q-card>
+            </div>
+            <div class="col-3 q-pa-sm">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <img src="/statics/img/colibri.svg" />
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">orinoco</div>
+                </q-card-section>
+              </q-card>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-10 col-xs-10 self-center">
+          <span class="text-h2 text-bold">Nuestro portafolio</span>
+          <br />
+          <!-- <img src="/statics/img/flecha-verde.png" style="width: 80%" /> -->
+          <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
+          <q-btn
+            color="orange-5"
+            @click="openModalPortafolio()"
+            class
+            outline
+            label="Conoce nuestro portafolio"
+            rounded
+          />
+        </div>
+        <div class="col-10 q-mt-xl md-hide xl-hide lg-hide">
+          <div class="row justify-center">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
+              <q-card
+                class="my-card q-pa-md shadow-13 bg-primary"
+                style="width:100%; border-radius:15px;"
+              >
+                <img src="/statics/img/tasa.svg" width="75%" />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h5 text-bold">Tasa.cash</div>
+                </q-card-section>
+              </q-card>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm">
+              <q-card
+                class="my-card q-pa-md shadow-13 bg-primary"
+                style="width:100%; border-radius:15px;"
+              >
+                <img src="/statics/img/colibri.svg" height="150px" />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h5 text-bold">Orinoco.io</div>
+                </q-card-section>
+              </q-card>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
+              <q-card
+                class="my-card q-pa-md shadow-13 bg-primary"
+                style="width:100%; border-radius:15px;"
+              >
+                <img src="/statics/img/janken.svg" height="100px" />
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h5 text-bold">Janken</div>
+                </q-card-section>
+              </q-card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SECCION PORTAFOLIO -->
+
+    <!-- SERVICIOS -->
+    <div id="servicios" class="col-12 bg-accent" style>
+      <div class="row justify-center text-center">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10">
+          <span class="text-h2 text-bold">Nuestros servicios</span>
+          <br />
+          <!-- <img src="/statics/img/flecha-verde.png" style="width: 35%" /> -->
+          <p class="text-h6">Desarrollamos los software que están de moda con la mejor tecnología</p>
+          <serviciosSlide class="q-mt-xl"></serviciosSlide>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SERVICIOS -->
+
     <!-- SECCION EQUIPO -->
     <div
       id="equipo"
       class="col-12 bg-accent q-pt-xl q-pb-xl"
-      style="min-height:100vh;margin-top:-100px;"
+      style="min-height:100vh;padding-top:50px;"
     >
       <div
         :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row justify-between'"
@@ -110,7 +206,7 @@ html {
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 col-xs-10 self-center q-pa-sm">
           <span class="text-h2 text-bold">Nuestro equipo</span>
           <br />
-          <img src="/statics/img/flecha-verde.png" style="width: 90%;" />
+          <!-- <img src="/statics/img/flecha-verde.png" style="width: 90%;" /> -->
           <p
             class="text-h6"
           >OrinocoDev esta conformado por un equipo joven de desarrolladores para llevar tu creatividad en realidad</p>
@@ -300,198 +396,9 @@ html {
     </div>
     <!-- FIN SECCION EQUIPO -->
 
-    <!-- SECCION PORTAFOLIO -->
-    <div
-      id="portafolio"
-      class="col-12 bg-accent q-pt-xl q-pb-xl"
-      style="min-height:100vh; padding-top:100px;"
-    >
-      <div :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row'">
-        <div
-          class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-md self-center xs-hide sm-hide"
-        >
-          <div class="row justify-center text-center">
-            <div class="col-3 q-pa-sm">
-              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-                <q-card-section>
-                  <img src="/statics/img/janken.svg" />
-                </q-card-section>
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">Janken</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-3 q-pa-sm">
-              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-                <q-card-section>
-                  <img src="/statics/img/tasa.svg" />
-                </q-card-section>
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">Tasa</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-3 q-pa-sm">
-              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-                <q-card-section>
-                  <img src="/statics/img/colibri.svg" />
-                </q-card-section>
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">orinoco</div>
-                </q-card-section>
-              </q-card>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-10 col-xs-10 self-center">
-          <span class="text-h2 text-bold">Nuestro portafolio</span>
-          <br />
-          <img src="/statics/img/flecha-verde.png" style="width: 80%" />
-          <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
-          <q-btn
-            color="orange-5"
-            @click="openModalPortafolio()"
-            class
-            outline
-            label="Conoce nuestro portafolio"
-            rounded
-          />
-        </div>
-        <div class="col-10 q-mt-xl md-hide xl-hide lg-hide">
-          <div class="row justify-center">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/tasa.svg" width="75%" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Tasa.cash</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/colibri.svg" height="150px" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Orinoco.io</div>
-                </q-card-section>
-              </q-card>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 q-ma-sm self-center">
-              <q-card
-                class="my-card q-pa-md shadow-13 bg-primary"
-                style="width:100%; border-radius:15px;"
-              >
-                <img src="/statics/img/janken.svg" height="100px" />
-                <q-card-section class="q-pt-none text-center">
-                  <div class="text-h5 text-bold">Janken</div>
-                </q-card-section>
-              </q-card>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCION PORTAFOLIO -->
-
-    <!-- SERVICIOS -->
-    <div id="servicios" class="col-12 bg-accent" style="min-height:100vh;">
-      <div class="row justify-center text-center">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10">
-          <span class="text-h2 text-bold">Nuestros servicios</span>
-          <br />
-          <img src="/statics/img/flecha-verde.png" style="width: 35%" />
-          <p class="text-h6">Desarrollamos los software que están de moda con la mejor tecnología</p>
-          <serviciosSlide class="q-mt-xl"></serviciosSlide>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SERVICIOS -->
-
-    <!-- TESTIMONIOS -->
-    <!-- <div
-      :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row justify-center q-pa-xl'"
-      class="bg-accent"
-    >
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-10 self-center">
-        <span
-          :class="(this.$q.screen.lt.md) ? 'text-h3 text-bold' : 'text-h2 text-bold'"
-        >Testimonios</span>
-        <br />
-        <img src="/statics/img/flecha-verde.png" style="width: 70%" />
-        <p
-          class="text-h6"
-        >Nuestros clientes esta satisfechos con los servicios ofrecidos, aqui algunas de sus opniones</p>
-      </div>
-      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-xs-10">
-        <q-carousel
-          style="border-radius:20px;"
-          v-model="slide"
-          vertical
-          transition-prev="slide-down"
-          transition-next="slide-up"
-          swipeable
-          animated
-          control-color="white"
-          navigation-icon="radio_button_unchecked"
-          navigation
-          padding
-          arrows
-          height="300px"
-          :class="(this.$q.screen.lt.sm) ? 'bg-accent shadow-13 q-mb-xl text-white shadow-1 rounded-borders' : 'bg-primary shadow-13 q-mb-xl text-white shadow-1 rounded-borders'"
-        >
-          <q-carousel-slide name="style" class="column no-wrap flex-center">
-            <q-icon name="style" size="56px" />
-            <div class="q-mt-md text-center">{{ lorem }}</div>
-          </q-carousel-slide>
-          <q-carousel-slide name="tv" class="column no-wrap flex-center">
-            <q-icon name="live_tv" size="56px" />
-            <div class="q-mt-md text-center">{{ lorem }}</div>
-          </q-carousel-slide>
-          <q-carousel-slide name="layers" class="column no-wrap flex-center">
-            <q-icon name="layers" size="56px" />
-            <div class="q-mt-md text-center">{{ lorem }}</div>
-          </q-carousel-slide>
-          <q-carousel-slide name="map" class="column no-wrap flex-center">
-            <q-icon name="terrain" size="56px" />
-            <div class="q-mt-md text-center">{{ lorem }}</div>
-          </q-carousel-slide>
-        </q-carousel>
-      </div>
-    </div>-->
-    <!-- FIN TESTIMONIOS -->
-
-    <div class="row">
+    <div class="row" style="margin-top:-1px;">
       <div class="col-12">
         <img src="/statics/img/forma3.svg" alt />
-      </div>
-    </div>
-
-    <!-- REDES SOCIALES -->
-    <div
-      id="contactos"
-      class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10 self-center text-center"
-      style="padding-top:100px; padding-bottom:100px;;min-height:50vh;"
-    >
-      <span class="text-h2 text-bold">Nuestras redes sociales</span>
-      <br />
-      <img src="/statics/img/flecha-verde.png" style="width: 45%" />
-      <p class="text-h6">Conéctate con OrinocoDev a través de nuestros diferentes canales</p>
-      <div class="row justify-center">
-        <div class="col-10">
-          <redesSociales></redesSociales>
-        </div>
-      </div>
-    </div>
-    <!-- FIN REDES SOCIALES -->
-
-    <div class="row">
-      <div class="col-12">
-        <img src="/statics/img/forma4.svg" alt />
       </div>
     </div>
 
@@ -508,12 +415,9 @@ html {
     <!-- FIN PORTAFOLIO -->
 
     <!-- EQUIPO -->
-    <q-dialog v-model="equipoDialog" position="right">
-      <q-card class="bg-primary text-white" style="height:100vh;">
+    <q-dialog v-model="equipoDialog" position="right" :maximized="maximizedToggle">
+      <q-card class="bg-primary text-white" style="width:600px;">
         <div class="row justify-center">
-          <!-- <div class="col-xl-5 col-lg-5 col-md-7 col-sm-10 col-xs-12">
-            <img src="/statics/img/fondoFoto.svg" alt />
-          </div>-->
           <div class="text-center col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
             <q-card-section>
               <q-avatar size="100px">

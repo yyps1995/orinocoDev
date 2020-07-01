@@ -61,7 +61,7 @@
             label="Enviar"
             type="a"
             target="_blank"
-            :href="'https://wa.me/5704148098295?text=Buen%20dia,%20mi%20nombre%20es%20'+ nombre +'%20' + apellido +'%20,me%20contacto%20por%20la%20pagina%20web,%20quisiera%20mas%20información%20sobre%20el%20desarrollo%20de%20una%20'+ servicio +''"
+            :href="'https://wa.me/5804148098295?text=Buen%20dia,%20mi%20nombre%20es%20'+ nombre +'%20' + apellido +'%20,me%20contacto%20por%20la%20pagina%20web,%20quisiera%20mas%20información%20sobre%20el%20desarrollo%20de%20una%20'+ servicio +''"
             color="secondary"
             rounded
             outline
