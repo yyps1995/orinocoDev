@@ -21,7 +21,7 @@ html {
     <div class="row justify-center text-center home">
       <div
         class="col-xl-5 col-lg-5 col-md-5 col-sm-10 col-xs-10 q-mt-xl"
-        style="padding-top:150px;min-height:100vh;"
+        style="padding-top:150px;min-height:80vh;"
       >
         <span :class="($q.screen.lt.md) ? 'text-h3 text-bold' : 'text-h1 text-bold'">Orinoco</span>
         <span
@@ -73,9 +73,9 @@ html {
       <!-- <div class="col-6 sm-hide xs-hide text-right" style="margin-top:-50px;">
         <img src="/statics/img/formaNegra.png" style="width:100%;" alt />
       </div>-->
-      <div class="col-12 sm-hide xs-hide">
+      <!-- <div class="col-12 sm-hide xs-hide">
         <img src="/statics/img/forma1.svg" alt />
-      </div>
+      </div>-->
     </div>
     <!-- FIN PORTADA -->
 

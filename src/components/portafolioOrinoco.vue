@@ -86,7 +86,9 @@
 
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <q-card class="my-card q-pa-md bg-primary q-ma-md shadow-13" bordered>
-                <q-card-section style="min-height:200px;;"></q-card-section>
+                <q-card-section style="min-height:200px;;">
+                  <img src="/statics/img/rd.svg" />
+                </q-card-section>
 
                 <q-card-section>
                   <div class="text-h5 q-mt-sm q-mb-xs text-white">RDTH</div>
