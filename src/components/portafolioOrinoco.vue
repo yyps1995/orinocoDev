@@ -23,9 +23,6 @@
 
                 <q-card-section>
                   <div class="text-h5 q-mt-sm q-mb-xs text-white">Orinoco.io</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </q-card-section>
 
                 <q-card-actions>
@@ -49,9 +46,6 @@
 
                 <q-card-section>
                   <div class="text-h5 q-mt-sm q-mb-xs text-white">Janken.game</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </q-card-section>
 
                 <q-card-actions>
@@ -75,9 +69,6 @@
 
                 <q-card-section>
                   <div class="text-h5 q-mt-sm q-mb-xs text-white">Tasa.cash</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </q-card-section>
 
                 <q-card-actions>
@@ -99,9 +90,6 @@
 
                 <q-card-section>
                   <div class="text-h5 q-mt-sm q-mb-xs text-white">RDTH</div>
-                  <div
-                    class="text-caption text-grey"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </q-card-section>
 
                 <q-card-actions>
