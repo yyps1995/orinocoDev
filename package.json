@@ -21,7 +21,8 @@
     "jquery": "^3.5.0",
     "quasar": "^1.0.0",
     "vue-carousel": "^0.18.0",
-    "vue-scrollactive": "^0.9.3"
+    "vue-scrollactive": "^0.9.3",
+    "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",

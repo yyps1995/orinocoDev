@@ -5,7 +5,7 @@
     <!-- <Header></Header> -->
     <q-page-container class="bg-primary text-white" style="min-height:100vh;">
       <router-view />
-      <q-page-sticky position="bottom-right" :offset="[18, 18]">
+      <!-- <q-page-sticky position="bottom-right" :offset="[18, 18]">
         <q-btn
           type="a"
           href="https://www.facebook.com/orinoco.dev.58"
@@ -45,7 +45,7 @@
           icon="mdi-whatsapp"
           color="secondary"
         />
-      </q-page-sticky>
+      </q-page-sticky>-->
     </q-page-container>
     <Footer></Footer>
   </q-layout>

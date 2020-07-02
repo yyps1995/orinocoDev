@@ -12,57 +12,48 @@
             <img src="/statics/img/blog.png" style="width:50%;" />
           </q-card-section>
 
-          <!-- <q-card-section>
-            <q-btn
-              fab
-              color="accent"
-              class="absolute shadow-13"
-              label="50$"
-              style="top: 0; right: 12px; transform: translateY(-50%);"
-            />
-          </q-card-section>-->
-
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Blogs</div>
-            <!-- <div
-              class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="text-h5 text-bold">Criptomonedas</div>
           </q-card-section>
 
           <q-separator />
 
-          <q-card-actions>
-            <q-btn flat color="orange-5" @click="openModal('blog')">Mas información</q-btn>
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('blog')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
-            <img src="/statics/img/lading.png" style="width:50%;" />
+            <img src="/statics/img/blog.png" style="width:50%;" />
           </q-card-section>
 
-          <!-- <q-card-section>
-            <q-btn
-              fab
-              color="accent"
-              class="absolute shadow-13"
-              label="50$"
-              style="top: 0; right: 12px; transform: translateY(-50%);"
-            />
-          </q-card-section>-->
-
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Landing Pages</div>
-            <!-- <div
-              class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="text-h5 text-bold">Api</div>
           </q-card-section>
 
           <q-separator />
 
-          <q-card-actions>
-            <q-btn flat color="orange-5" @click="openModal('landingPage')">Mas información</q-btn>
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('blog')">Ver más</q-btn>
+          </q-card-actions>
+        </q-card>
+      </slide>
+      <slide style="margin:20px;">
+        <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+          <q-card-section align="center">
+            <img src="/statics/img/tienda.png" style="width:50%;" />
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            <div class="text-h5 text-bold">Tienda Virtual</div>
+          </q-card-section>
+
+          <q-separator />
+
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('landingPage')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -72,27 +63,14 @@
             <img src="/statics/img/portafolio.png" style="width:50%;" />
           </q-card-section>
 
-          <!-- <q-card-section>
-            <q-btn
-              fab
-              color="accent"
-              class="absolute shadow-13"
-              label="50$"
-              style="top: 0; right: 12px; transform: translateY(-50%);"
-            />
-          </q-card-section>-->
-
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Portafolios</div>
-            <!-- <div
-              class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="text-h5 text-bold">Aplicacíon</div>
           </q-card-section>
 
           <q-separator />
 
-          <q-card-actions>
-            <q-btn flat color="orange-5" @click="openModal('portafolio')">Mas información</q-btn>
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('portafolio')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -102,29 +80,17 @@
           style="width:100%; border-radius:15px;"
         >
           <q-card-section align="center">
-            <img src="/statics/img/tienda.png" style="width:50%;" />
+            <img src="/statics/img/lading.png" style="width:50%;" />
           </q-card-section>
-          <!-- <q-card-section>
-            <q-btn
-              fab
-              color="accent"
-              class="absolute shadow-13"
-              label="50$"
-              style="top: 0; right: 12px; transform: translateY(-50%);"
-            />
-          </q-card-section>-->
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Tiendas Online</div>
-            <!-- <div
-              class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="text-h5 text-bold">Página web</div>
           </q-card-section>
 
           <q-separator />
 
-          <q-card-actions>
-            <q-btn flat color="orange-5" @click="openModal('tiendaOnline')">Mas información</q-btn>
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('tiendaOnline')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -134,33 +100,20 @@
             <img src="/statics/img/personalizado.png" style="width:50%;" />
           </q-card-section>
 
-          <!-- <q-card-section>
-            <q-btn
-              fab
-              color="accent"
-              class="absolute shadow-13"
-              label="50$"
-              style="top: 0; right: 12px; transform: translateY(-50%);"
-            />
-          </q-card-section>-->
-
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Personalizado</div>
-            <!-- <div
-              class="text-caption text-grey"
-            >Small plates, salads & sandwiches in an intimate setting.</div>-->
+            <div class="text-h5 text-bold">Sistema</div>
           </q-card-section>
 
           <q-separator />
 
-          <q-card-actions>
-            <q-btn flat color="orange-5" @click="openModal('personalizado')">Mas información</q-btn>
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('personalizado')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
     </hooper>
 
-    <q-dialog v-model="dialog" position="right" :maximized="maximizedToggle">
+    <q-dialog v-model="dialog" position="right" persistent :maximized="maximizedToggle">
       <blog v-if="this.modalName === 'blog'"></blog>
       <portafolio v-if="this.modalName === 'portafolio'"></portafolio>
       <landingPage v-if="this.modalName === 'landingPage'"></landingPage>
