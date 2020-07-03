@@ -6,41 +6,7 @@
 <template>
   <div>
     <hooper :settings="hooperSettings">
-      <slide style="margin:20px;">
-        <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-card-section align="center">
-            <img src="/statics/img/criptomoneda.png" style="width:50%;" />
-          </q-card-section>
-
-          <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Criptomonedas</div>
-          </q-card-section>
-
-          <q-separator />
-
-          <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('cripto')">Ver más</q-btn>
-          </q-card-actions>
-        </q-card>
-      </slide>
-      <slide style="margin:20px;">
-        <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
-          <q-card-section align="center">
-            <img src="/statics/img/api.png" style="width:50%;" />
-          </q-card-section>
-
-          <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Api</div>
-          </q-card-section>
-
-          <q-separator />
-
-          <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('api')">Ver más</q-btn>
-          </q-card-actions>
-        </q-card>
-      </slide>
-      <slide style="margin:20px;">
+      <slide>
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/tienda.png" style="width:50%;" />
@@ -57,7 +23,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide style="margin:20px;">
+      <slide>
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/app.png" style="width:50%;" />
@@ -74,7 +40,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide style="margin:20px;">
+      <slide>
         <q-card
           class="my-card text-center shadow-13 bg-primary"
           style="width:100%; border-radius:15px;"
@@ -94,7 +60,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide style="margin:20px;">
+      <slide>
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/personalizado.png" style="width:50%;" />
@@ -108,6 +74,40 @@
 
           <q-card-actions align="center">
             <q-btn flat color="orange-5" @click="openModal('personalizado')">Ver más</q-btn>
+          </q-card-actions>
+        </q-card>
+      </slide>
+      <slide>
+        <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+          <q-card-section align="center">
+            <img src="/statics/img/criptomoneda.png" style="width:50%;" />
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            <div class="text-h5 text-bold">Criptomonedas</div>
+          </q-card-section>
+
+          <q-separator />
+
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('cripto')">Ver más</q-btn>
+          </q-card-actions>
+        </q-card>
+      </slide>
+      <slide>
+        <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+          <q-card-section align="center">
+            <img src="/statics/img/api.png" style="width:50%;" />
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            <div class="text-h5 text-bold">Api</div>
+          </q-card-section>
+
+          <q-separator />
+
+          <q-card-actions align="center">
+            <q-btn flat color="orange-5" @click="openModal('api')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -160,9 +160,9 @@ export default {
       modalName: "",
       hooperSettings: {
         infiniteScroll: true,
-        autoPlay: false,
-        itemsToShow: 5,
-        centerMode: false,
+        autoPlay: true,
+        itemsToShow: 4,
+        centerMode: true,
         pagination: "no",
         breakpoints: {
           150: {
@@ -182,7 +182,7 @@ export default {
             itemsToShow: 3
           },
           1000: {
-            itemsToShow: 5
+            itemsToShow: 4
           }
         }
       }

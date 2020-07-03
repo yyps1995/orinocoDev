@@ -37,7 +37,7 @@ html {
             :strings="[
                   'aplicación',
                   'página web',
-                  'sistema',
+                  'sistema web',
                   'tienda virtual',
                   'api',
                   'criptomoneda '
@@ -95,8 +95,8 @@ html {
     <!-- SERVICIOS -->
     <div id="servicios" class="col-12 bg-accent q-pt-xl" style>
       <div class="row justify-center text-center">
-        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
-          <span class="text-h3 text-bold">Nuestros servicios</span>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <span class="text-h3 text-bold text-secondary">Nuestros servicios</span>
           <br />
           <!-- <img src="/statics/img/flecha-verde.png" style="width: 35%" /> -->
           <p class="text-h6">Desarrollamos los software que están de moda con la mejor tecnología</p>
@@ -112,7 +112,7 @@ html {
         :class="(this.$q.screen.lt.md) ? 'row justify-center text-center' : 'row justify-center text-center'"
       >
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10 self-center">
-          <span class="text-h3 text-bold">Nuestro portafolio</span>
+          <span class="text-h3 text-bold text-secondary">Nuestro portafolio</span>
           <br />
           <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
         </div>
@@ -187,7 +187,7 @@ html {
     <!-- TECNOLOGIAS -->
     <div class="row justify-center text-center bg-accent">
       <div class="col-8">
-        <span class="text-h3 text-bold">Tecnologías</span>
+        <span class="text-h3 text-bold text-secondary">Tecnologías</span>
         <p class="text-h6">Tecnologías de desarrollo usadas por nuestro equipo</p>
         <div class="row justify-center text-center">
           <div class="col-1 q-ma-md">
@@ -242,7 +242,7 @@ html {
           <img src="/statics/img/forma2.png" width="100%" alt />
         </div>
         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-sm text-center q-mt-xl">
-          <span class="text-h3 text-bold">Nuestro equipo</span>
+          <span class="text-h3 text-bold text-secondary">Nuestro equipo</span>
           <br />
           <div class="row justify-center">
             <div class="col-9">
