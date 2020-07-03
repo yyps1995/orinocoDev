@@ -1,6 +1,6 @@
 <template>
   <section>
-    <q-header class="bg-transparent">
+    <q-header elevated class="bg-transparent">
       <q-toolbar>
         <q-btn
           class="lg-hide xl-hide md-hide"

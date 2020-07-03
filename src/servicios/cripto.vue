@@ -8,9 +8,13 @@
           </div>
         </q-card-section>
 
-        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Blogs</q-card-section>
+        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Criptomonedas</q-card-section>
         <q-card-section class="q-pa-xl">
-          <span>Un blog es un sitio web en el que se va publicando contenido cada cierto tiempo en forma de artículos (también llamados posts) ordenados por fecha de publicación, así el artículo más reciente aparecerá primero.</span>
+          <span>
+            La criptomoneda o criptodivisa es un tipo de moneda digital que utiliza la criptografía para proporcionar un sistema de pagos seguro. Estas técnicas de cifrado sirven para regular la generación de unidades monetarias y verificar la transferencia de fondos. No necesitan de un banco central u otra institución que las controle.
+            <br />
+            <br />Con OrinocoDev podrás crear tu propia criptomoneda.
+          </span>
           <q-card-section class="text-center text-h2 text-bold">
             <q-btn
               label="Contratar servicio"
@@ -56,14 +60,14 @@
 </template>
 <script>
 export default {
-  name: "blog",
+  name: "cripto",
   components: {},
   data() {
     return {
       show: false,
       apellido: "",
       nombre: "",
-      servicio: "Blog"
+      servicio: "criptomonedas"
     };
   }
 };

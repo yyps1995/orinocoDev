@@ -121,7 +121,7 @@ html {
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-sm">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <img src="/statics/img/janken.svg" />
+                  <q-img src="/statics/img/janken.png" width="70%" />
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Janken</div>
@@ -129,14 +129,14 @@ html {
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
-                  <q-btn flat color="orange-5" @click="portafolioDialog = true">Ver más</q-btn>
+                  <q-btn flat color="orange-5" @click="portafolioModal('janken')">Ver más</q-btn>
                 </q-card-actions>
               </q-card>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-sm">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <img src="/statics/img/tasa.svg" />
+                  <q-img src="/statics/img/tasa.png" width="70%" />
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Tasa</div>
@@ -144,14 +144,14 @@ html {
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
-                  <q-btn flat color="orange-5" @click="portafolioDialog = true">Ver más</q-btn>
+                  <q-btn flat color="orange-5" @click="portafolioModal('tasa')">Ver más</q-btn>
                 </q-card-actions>
               </q-card>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-sm">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <img src="/statics/img/rd.svg" />
+                  <q-img src="/statics/img/rd.png" width="70%" />
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Rdtech</div>
@@ -159,14 +159,14 @@ html {
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
-                  <q-btn flat color="orange-5" @click="portafolioDialog = true">Ver más</q-btn>
+                  <q-btn flat color="orange-5" @click="portafolioModal('rdtech')">Ver más</q-btn>
                 </q-card-actions>
               </q-card>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-sm">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <img src="/statics/img/colibri.svg" />
+                  <q-img src="/statics/img/colibri.png" width="70%" />
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Orinoco</div>
@@ -174,7 +174,7 @@ html {
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
-                  <q-btn flat color="orange-5" @click="portafolioDialog = true">Ver más</q-btn>
+                  <q-btn flat color="orange-5" @click="portafolioModal('orinoco')">Ver más</q-btn>
                 </q-card-actions>
               </q-card>
             </div>
@@ -190,53 +190,41 @@ html {
         <span class="text-h3 text-bold">Tecnologías</span>
         <p class="text-h6">Tecnologías de desarrollo usadas por nuestro equipo</p>
         <div class="row justify-center text-center">
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/vue.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/javascript.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/css.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/html.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/mongo.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/quasar.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/graphql.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/git.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/npm.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/node.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/apollo.png" />
           </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
-          </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
-          </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
-          </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
-          </div>
-          <div class="col-1 q-ma-md bg-secondary">
-            <q-img scr="/statics/img/" />
+          <div class="col-1 q-ma-md">
+            <q-img src="/statics/img/aws.png" />
           </div>
         </div>
       </div>
@@ -366,7 +354,302 @@ html {
     <!-- PORTAFOLIO MODAL -->
     <q-dialog position="right" v-model="portafolioDialog" persistent :maximized="maximizedToggle">
       <q-card class="bg-primary text-white" style="width:600px;">
-        <q-card-section></q-card-section>
+        <q-card-section>
+          <div class="text-h6">
+            <q-btn dense flat icon="close" v-close-popup></q-btn>
+          </div>
+        </q-card-section>
+        <q-card-section class="text-center">
+          <div v-if="this.name === 'orinoco'">
+            <span class="text-h3 text-bold">Orinoco.io</span>
+            <br />
+            <span class="text-h6">Pasarela de pagos de criptos y fiats</span>
+          </div>
+          <div v-if="this.name === 'janken'">
+            <span class="text-h3 text-bold">Janken.game</span>
+            <br />
+            <span class="text-h6">Crypto-juego basado en la blockchain de hive</span>
+          </div>
+          <div v-if="this.name === 'tasa'">
+            <span class="text-h3 text-bold">Tasa.cash</span>
+            <br />
+            <span class="text-h6">Tasas de cambio en tiempo real</span>
+          </div>
+          <div v-if="this.name === 'rdtech'">
+            <span class="text-h3 text-bold">Rdtech.com</span>
+            <br />
+            <span class="text-h6">Distribuidora y comercializadora</span>
+          </div>
+        </q-card-section>
+        <q-card-section class="text-center">
+          <!-- orinoco -->
+          <span v-if="this.name === 'orinoco'">
+            <br />Tecnologías usadas para su desarrollo:
+            <br />
+            <br />
+            <div class="row justify-center">
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >javascript</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >mongodb</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >graphql</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >vue.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+            </div>
+          </span>
+          <!-- orinoco -->
+
+          <!-- janken -->
+          <span v-if="this.name === 'janken'">
+            <br />Tecnologías usadas para su desarrollo:
+            <br />
+            <br />
+            <div class="row justify-center">
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >javascript</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >mongodb</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >graphql</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >vue.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+            </div>
+          </span>
+          <!-- janken -->
+
+          <!-- rdtech -->
+          <span v-if="this.name === 'rdtech'">
+            <br />Tecnologías usadas para su desarrollo:
+            <br />
+            <br />
+            <div class="row justify-center">
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >javascript</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >mongodb</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >graphql</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >vue.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+            </div>
+          </span>
+          <!-- rdtech -->
+
+          <!-- tasa -->
+          <span v-if="this.name === 'tasa'">
+            <br />Tecnologías usadas para su desarrollo:
+            <br />
+            <br />
+            <div class="row justify-center">
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >javascript</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >mongodb</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >graphql</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >vue.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+              <div
+                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
+              >quasar.js</div>
+            </div>
+          </span>
+          <!-- tasa -->
+        </q-card-section>
       </q-card>
     </q-dialog>
     <!-- FIN PORTAFOLIO MODAL -->
@@ -651,14 +934,16 @@ export default {
       maximizedToggle: true,
       modalName: "",
       nameU: "",
+      name: "",
       slide: "style",
       lorem:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo."
     };
   },
   methods: {
-    openModalPortafolio() {
+    portafolioModal(name) {
       this.portafolioDialog = true;
+      this.name = name;
     },
     openModalEquipo(name) {
       this.nombre = name;

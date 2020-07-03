@@ -9,7 +9,7 @@
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
-            <img src="/statics/img/blog.png" style="width:50%;" />
+            <img src="/statics/img/criptomoneda.png" style="width:50%;" />
           </q-card-section>
 
           <q-card-section class="q-pt-none">
@@ -19,14 +19,14 @@
           <q-separator />
 
           <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('blog')">Ver más</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('cripto')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
-            <img src="/statics/img/blog.png" style="width:50%;" />
+            <img src="/statics/img/api.png" style="width:50%;" />
           </q-card-section>
 
           <q-card-section class="q-pt-none">
@@ -36,7 +36,7 @@
           <q-separator />
 
           <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('blog')">Ver más</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('api')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -53,14 +53,14 @@
           <q-separator />
 
           <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('landingPage')">Ver más</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('tiendaOnline')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
       <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
-            <img src="/statics/img/portafolio.png" style="width:50%;" />
+            <img src="/statics/img/app.png" style="width:50%;" />
           </q-card-section>
 
           <q-card-section class="q-pt-none">
@@ -70,7 +70,7 @@
           <q-separator />
 
           <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('portafolio')">Ver más</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('app')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -90,7 +90,7 @@
           <q-separator />
 
           <q-card-actions align="center">
-            <q-btn flat color="orange-5" @click="openModal('tiendaOnline')">Ver más</q-btn>
+            <q-btn flat color="orange-5" @click="openModal('paginaWeb')">Ver más</q-btn>
           </q-card-actions>
         </q-card>
       </slide>
@@ -101,7 +101,7 @@
           </q-card-section>
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Sistema</div>
+            <div class="text-h5 text-bold">Sistema web</div>
           </q-card-section>
 
           <q-separator />
@@ -115,6 +115,10 @@
 
     <q-dialog v-model="dialog" position="right" persistent :maximized="maximizedToggle">
       <blog v-if="this.modalName === 'blog'"></blog>
+      <cripto v-if="this.modalName === 'cripto'"></cripto>
+      <app v-if="this.modalName === 'app'"></app>
+      <paginaWeb v-if="this.modalName === 'paginaWeb'"></paginaWeb>
+      <api v-if="this.modalName === 'api'"></api>
       <portafolio v-if="this.modalName === 'portafolio'"></portafolio>
       <landingPage v-if="this.modalName === 'landingPage'"></landingPage>
       <tiendaOnline v-if="this.modalName === 'tiendaOnline'"></tiendaOnline>
@@ -125,6 +129,10 @@
 <script>
 import { Hooper, Slide } from "hooper";
 import blog from "../servicios/blog";
+import cripto from "../servicios/cripto";
+import paginaWeb from "../servicios/paginaWeb";
+import app from "../servicios/app";
+import api from "../servicios/api";
 import landingPage from "../servicios/landingPage";
 import portafolio from "../servicios/portafolio";
 import tiendaOnline from "../servicios/tiendaOnline";
@@ -136,6 +144,10 @@ export default {
     Hooper,
     Slide,
     blog,
+    cripto,
+    paginaWeb,
+    app,
+    api,
     landingPage,
     portafolio,
     tiendaOnline,
@@ -180,6 +192,22 @@ export default {
     openModal(name) {
       if (name === "blog") {
         this.modalName = "blog";
+        this.dialog = true;
+      }
+      if (name === "cripto") {
+        this.modalName = "cripto";
+        this.dialog = true;
+      }
+      if (name === "api") {
+        this.modalName = "api";
+        this.dialog = true;
+      }
+      if (name === "app") {
+        this.modalName = "app";
+        this.dialog = true;
+      }
+      if (name === "paginaWeb") {
+        this.modalName = "paginaWeb";
         this.dialog = true;
       }
       if (name === "landingPage") {

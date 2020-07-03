@@ -8,14 +8,13 @@
           </div>
         </q-card-section>
 
-        <q-card-section
-          class="text-center text-h2 text-secondary text-bold q-pt-xl"
-        >Servicio personalizado</q-card-section>
-        <!-- <q-card-section class="text-center text-h2 text-bold q-pt-xl">
-          <img src style="height:200px;" alt />
-        </q-card-section>-->
+        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Sistema Web</q-card-section>
         <q-card-section class="q-pa-xl">
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam et odit hic, velit beatae soluta corrupti blanditiis maiores laborum sint vel deleniti sed ad error quod repellendus sunt delectus.</span>
+          <span>
+            Se denomina sistema web a aquellas aplicaciones de software que puede utilizarse accediendo a un servidor web a través de Internet o de una intranet mediante un navegador.
+            <br />
+            <br />Las aplicaciones web son muy usadas hoy en día, debido a lo práctico del navegador web como cliente ligero, a la independencia del sistema operativo y otras ventajas que te contamos ahora:
+          </span>
           <q-card-section class="text-center text-h2 text-bold">
             <q-btn
               label="Contratar servicio"

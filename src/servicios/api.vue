@@ -8,9 +8,13 @@
           </div>
         </q-card-section>
 
-        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Blogs</q-card-section>
+        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Apis</q-card-section>
         <q-card-section class="q-pa-xl">
-          <span>Un blog es un sitio web en el que se va publicando contenido cada cierto tiempo en forma de artículos (también llamados posts) ordenados por fecha de publicación, así el artículo más reciente aparecerá primero.</span>
+          <span>
+            Una API (siglas de ‘Application Programming Interface’) es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas: sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano-software.
+            <br />
+            <br />Las API pueden servir para comunicarse con el sistema operativo (WinAPI), con bases de datos (DBMS) o con protocolos de comunicaciones (Jabber/XMPP). En los últimos años, por supuesto, se han sumado múltiples redes sociales (Twitter, Facebook, Youtube, Flickr, LinkedIn, etc) y otras plataformas online (Google Maps, WordPress…), lo que ha convertido el social media marketing es algo más sencillo, más rastreable y, por tanto, más rentable.
+          </span>
           <q-card-section class="text-center text-h2 text-bold">
             <q-btn
               label="Contratar servicio"
@@ -56,14 +60,14 @@
 </template>
 <script>
 export default {
-  name: "blog",
+  name: "api",
   components: {},
   data() {
     return {
       show: false,
       apellido: "",
       nombre: "",
-      servicio: "Blog"
+      servicio: "api"
     };
   }
 };
