@@ -58,8 +58,8 @@ html {
                   <q-btn
                     type="a"
                     outline
-                    href="#portafolio"
-                    label="Portafolio"
+                    href="#servicios"
+                    label="Servicios"
                     class="scrollactive-item full-width"
                     color="orange-5"
                   />
@@ -68,12 +68,22 @@ html {
                   <q-btn
                     type="a"
                     outline
-                    href="#servicios"
-                    label="Servicios"
+                    href="#portafolio"
+                    label="Portafolio"
                     class="scrollactive-item full-width"
                     color="orange-5"
                   />
                 </div>
+                <!-- <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 q-ma-sm">
+                  <q-btn
+                    type="a"
+                    outline
+                    href="#planes"
+                    label="Planes"
+                    class="scrollactive-item full-width"
+                    color="orange-5"
+                  />
+                </div>-->
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 q-ma-sm">
                   <q-btn
                     type="a"
@@ -95,16 +105,114 @@ html {
     <!-- SERVICIOS -->
     <div id="servicios" class="col-12 bg-accent q-pt-xl" style>
       <div class="row justify-center text-center">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
           <span class="text-h3 text-bold text-secondary">Nuestros servicios</span>
           <br />
           <!-- <img src="/statics/img/flecha-verde.png" style="width: 35%" /> -->
-          <p class="text-h6">Desarrollamos los software que están de moda con la mejor tecnología</p>
+          <p
+            class="text-h6 text-italic"
+          >Desarrollamos los software que están de moda con la mejor tecnología</p>
           <serviciosSlide class="q-mt-xl"></serviciosSlide>
         </div>
       </div>
     </div>
     <!-- FIN SERVICIOS -->
+
+    <!-- PLANES -->
+    <div class="col-12 bg-accent q-pt-xl" style>
+      <div class="row justify-center text-center">
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+          <span class="text-h3 text-bold text-secondary">Planes diseñados para ti</span>
+          <p
+            class="text-h6 text-italic"
+          >OrinocoDev cuenta con atractivo planes diseñados especialmente para ti</p>
+          <br />
+          <div class="row justify-center q-mt-md">
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <q-avatar size="100px" color="secondary" text-color="white">
+                    <p class="text-h3 text-bold q-mt-md">2</p>
+                    <p class="text-h6 q-mt-md">días</p>
+                  </q-avatar>
+                  <br />
+                  <span class="text-caption">Entrega</span>
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">landing page</div>
+                  <div class="text-h5 text-bold text-secondary">50$</div>
+                </q-card-section>
+                <q-separator />
+                <q-card-actions align="center">
+                  <q-btn flat color="orange-5" @click="planesModal('landing page')">Ver plan</q-btn>
+                </q-card-actions>
+              </q-card>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <q-avatar size="100px" color="secondary" text-color="white">
+                    <p class="text-h3 text-bold q-mt-md">7</p>
+                    <p class="text-h6 q-mt-md">días</p>
+                  </q-avatar>
+                  <br />
+                  <span class="text-caption">Entrega</span>
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">portafolio</div>
+                  <div class="text-h5 text-bold text-secondary">100$</div>
+                </q-card-section>
+                <q-separator />
+                <q-card-actions align="center">
+                  <q-btn flat color="orange-5" @click="planesModal('portafolio')">Ver plan</q-btn>
+                </q-card-actions>
+              </q-card>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <q-avatar size="100px" color="secondary" text-color="white">
+                    <p class="text-h3 text-bold q-mt-md">7</p>
+                    <p class="text-h6 q-mt-md">días</p>
+                  </q-avatar>
+                  <br />
+                  <span class="text-caption">Entrega</span>
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">blog</div>
+                  <div class="text-h5 text-bold text-secondary">100$</div>
+                </q-card-section>
+                <q-separator />
+                <q-card-actions align="center">
+                  <q-btn flat color="orange-5" @click="planesModal('blog')">Ver plan</q-btn>
+                </q-card-actions>
+              </q-card>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <q-avatar size="100px" color="secondary" text-color="white">
+                    <p class="text-h3 text-bold q-mt-md">7</p>
+                    <p class="text-h6 q-mt-md">días</p>
+                  </q-avatar>
+                  <br />
+                  <span class="text-caption">Entrega</span>
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">tienda online</div>
+                  <div class="text-h5 text-bold text-secondary">150$</div>
+                </q-card-section>
+                <q-separator />
+                <q-card-actions align="center">
+                  <q-btn flat color="orange-5" @click="planesModal('tienda online')">Ver plan</q-btn>
+                </q-card-actions>
+              </q-card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PLANES -->
 
     <!-- SECCION PORTAFOLIO -->
     <div id="portafolio" class="col-12 bg-accent q-pt-xl q-pb-xl" style="min-height:50vh;">
@@ -114,7 +222,7 @@ html {
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10 self-center">
           <span class="text-h3 text-bold text-secondary">Nuestro portafolio</span>
           <br />
-          <p class="text-h6">Echa un vistazo a los software que hemos desarrollado</p>
+          <p class="text-h6 text-italic">Echa un vistazo a los software que hemos desarrollado</p>
         </div>
         <div class="col-10 q-mt-xl">
           <div class="row justify-center">
@@ -188,43 +296,55 @@ html {
     <div class="row justify-center text-center bg-accent">
       <div class="col-8">
         <span class="text-h3 text-bold text-secondary">Tecnologías</span>
-        <p class="text-h6">Tecnologías de desarrollo usadas por nuestro equipo</p>
+        <p class="text-h6 text-italic">Tecnologías de desarrollo usadas por nuestro equipo</p>
         <div class="row justify-center text-center">
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/vue.png" />
+            <q-tooltip>vue.js</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/javascript.png" />
+            <q-tooltip>javascript</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/css.png" />
+            <q-tooltip>css</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/html.png" />
+            <q-tooltip>html</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/mongo.png" />
+            <q-tooltip>mongodb</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/quasar.png" />
+            <q-tooltip>quasar.js</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/graphql.png" />
+            <q-tooltip>graphql</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/git.png" />
+            <q-tooltip>git</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/npm.png" />
+            <q-tooltip>npm</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/node.png" />
+            <q-tooltip>node.js</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/apollo.png" />
+            <q-tooltip>apollo</q-tooltip>
           </div>
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/aws.png" />
+            <q-tooltip>Amazon web services</q-tooltip>
           </div>
         </div>
       </div>
@@ -247,7 +367,7 @@ html {
           <div class="row justify-center">
             <div class="col-9">
               <p
-                class="text-h6"
+                class="text-h6 text-italic"
               >OrinocoDev esta conformado por un equipo joven de desarrolladores para llevar tu creatividad a la realidad</p>
             </div>
           </div>
@@ -381,10 +501,11 @@ html {
             <span class="text-h6">Distribuidora y comercializadora</span>
           </div>
         </q-card-section>
-        <q-card-section class="text-center">
+        <q-card-section>
           <!-- orinoco -->
           <span v-if="this.name === 'orinoco'">
-            <br />Tecnologías usadas para su desarrollo:
+            <br />
+            <span>Tecnologías usadas para su desarrollo:</span>
             <br />
             <br />
             <div class="row justify-center">
@@ -405,46 +526,31 @@ html {
               >quasar.js</div>
               <div
                 class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
+              >mongoose</div>
               <div
                 class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
+              >express.js</div>
               <div
                 class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
+              >node.js</div>
               <div
                 class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
+              >html</div>
               <div
                 class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
-              <div
-                class="col-3 q-ma-sm self-center text-orange-5 text-bold text-center shadow-15 bg-accent"
-              >quasar.js</div>
+              >css</div>
+            </div>
+            <div class="row justify-center q-mt-lg">
+              <div class="col-12">
+                - conexion con la api de la blockchain de steem
+                <br />
+                <br />- conexion con la api de la blockchain de hive
+                <br />
+                <br />- conexion con la api de la blockchain de bitcoin
+                <br />
+                <br />
+- conexion con la api de la blockchain de eos
+              </div>
             </div>
           </span>
           <!-- orinoco -->
@@ -654,7 +760,7 @@ html {
     </q-dialog>
     <!-- FIN PORTAFOLIO MODAL -->
 
-    <!-- EQUIPO -->
+    <!-- EQUIPO MODAL -->
     <q-dialog v-model="equipoDialog" persistent position="right" :maximized="maximizedToggle">
       <q-card class="bg-primary text-white" style="width:600px;">
         <div class="row justify-center">
@@ -915,7 +1021,64 @@ html {
         </div>
       </q-card>
     </q-dialog>
-    <!-- FIN EQUIPO -->
+    <!-- FIN EQUIPO MODAL -->
+
+    <!-- PLAN MODAL -->
+    <q-dialog position="right" v-model="planModal" persistent :maximized="maximizedToggle">
+      <q-card class="bg-primary text-white" style="width:600px;">
+        <q-card-section>
+          <div class="text-h6">
+            <q-btn dense flat icon="close" v-close-popup></q-btn>
+          </div>
+        </q-card-section>
+        <q-card-section>
+          <div class="text-h3 text-bold text-secondary text-center">Plan {{this.plan}}</div>
+        </q-card-section>
+        <q-card-section class="q-ma-xl">
+          <span
+            v-if="this.plan === 'landing page'"
+          >Una landing page, o página de aterrizaje, es una página web diseñada específicamente para convertir visitantes en leads.</span>
+          <span
+            v-if="this.plan === 'portafolio'"
+          >Un portafolio online es una forma única de mostrar su trabajo y le permite que otras personas sepan más de usted. Es una plataforma base para sus proyectos, estudios de caso, y toda la información acerca de usted. Además de esto, es una de las mejores formas para expresar su personalidad, experiencia y capacidades.</span>
+          <span
+            v-if="this.plan === 'blog'"
+          >Un blog es un sitio web en el que se va publicando contenido cada cierto tiempo en forma de artículos (también llamados posts) ordenados por fecha de publicación, así el artículo más reciente aparecerá primero.</span>
+          <span
+            v-if="this.plan === 'tienda online'"
+          >Una tienda virtual (o tienda online) es un sitio web donde los vendedores ponen a disposición de sus clientes los productos o servicios mostrándolos a través de imágenes o vídeos y explicando en detalle las características que estos ofrecen.</span>
+          <br />
+          <br />
+          <span class="text-h6">Caracteristicas de nuestro plan:</span>
+          <br />
+          <br />
+          <span v-if="this.plan === 'landing page'">
+            - Páginas Ilimitadas Disponibles
+            <br />- Diseño Web (1-5 Pestañas)
+            <br />- Catalogo de Productos o Servicios
+            <br />- Adaptado a Smartphone y Tablet
+            <br />- Hosting y Correos Corporativos
+            <br />- Videos, Formularios, Galerías
+            <br />- Incluye Dominio 1 año
+            <br />- Entrega Express
+            <br />
+            <br />Plan desde 50$
+            <br />
+            <br />
+            <q-btn
+              label="Contratar plan landing page"
+              type="a"
+              target="_blank"
+              :href="'https://wa.me/5804148098295?text=Buen%20dia,%20mi%20nombre%20es%20'+ nombre +'%20' + apellido +'%20,me%20contacto%20por%20la%20pagina%20web,%20quisiera%20mas%20información%20sobre%20el%20desarrollo%20de%20una%20'+ servicio +''"
+              color="secondary"
+              rounded
+              outline
+            ></q-btn>
+          </span>
+        </q-card-section>
+      </q-card>
+    </q-dialog>
+    <!-- PLAN MODAL -->
   </section>
 </template>
 <script>
@@ -936,8 +1099,8 @@ export default {
       nameU: "",
       name: "",
       slide: "style",
-      lorem:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo."
+      plan: "",
+      planModal: false
     };
   },
   methods: {
@@ -948,6 +1111,10 @@ export default {
     openModalEquipo(name) {
       this.nombre = name;
       this.equipoDialog = true;
+    },
+    planesModal(name) {
+      this.plan = name;
+      this.planModal = true;
     }
   }
 };

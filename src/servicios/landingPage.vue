@@ -9,9 +9,6 @@
         </q-card-section>
 
         <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Landing Pages</q-card-section>
-        <!-- <q-card-section class="text-center text-h2 text-bold q-pt-xl">
-          <img src style="height:200px;" alt />
-        </q-card-section>-->
         <q-card-section class="q-pa-xl">
           <span>Una landing page, o página de aterrizaje, es una página web diseñada específicamente para convertir visitantes en leads.</span>
           <br />

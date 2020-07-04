@@ -5,7 +5,7 @@
     <!-- <Header></Header> -->
     <q-page-container class="bg-primary text-white" style="min-height:100vh;">
       <router-view />
-      <div v-scroll="handleScroll">
+      <div v-scroll="handleScroll" class="sm-hide xs-hide">
         <q-page-sticky position="bottom-right" v-if="this.redes === true" :offset="[18, 18]">
           <q-btn
             round
@@ -30,7 +30,7 @@
           <q-btn
             round
             type="a"
-            href
+            href="https://t.me/orinocotrade"
             target="_blank"
             class="q-ma-xs"
             icon="mdi-telegram"
