@@ -6,7 +6,7 @@
 <template>
   <div>
     <hooper :settings="hooperSettings">
-      <slide>
+      <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/tienda.png" style="width:50%;" />
@@ -23,7 +23,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide>
+      <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/app.png" style="width:50%;" />
@@ -40,7 +40,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide>
+      <slide style="margin:20px;">
         <q-card
           class="my-card text-center shadow-13 bg-primary"
           style="width:100%; border-radius:15px;"
@@ -60,7 +60,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide>
+      <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/personalizado.png" style="width:50%;" />
@@ -77,7 +77,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide>
+      <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/criptomoneda.png" style="width:50%;" />
@@ -94,7 +94,7 @@
           </q-card-actions>
         </q-card>
       </slide>
-      <slide>
+      <slide style="margin:20px;">
         <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
           <q-card-section align="center">
             <img src="/statics/img/api.png" style="width:50%;" />
@@ -162,7 +162,7 @@ export default {
         infiniteScroll: true,
         autoPlay: true,
         itemsToShow: 4,
-        centerMode: true,
+        centerMode: false,
         pagination: "no",
         breakpoints: {
           150: {
@@ -182,7 +182,7 @@ export default {
             itemsToShow: 3
           },
           1000: {
-            itemsToShow: 4
+            itemsToShow: 5
           }
         }
       }
