@@ -285,8 +285,8 @@ html {
     <!-- TECNOLOGIAS -->
     <div class="row justify-center text-center bg-accent">
       <div class="col-8">
-        <span class="text-h3 text-bold text-secondary">Tecnologías</span>
-        <p class="text-h6 text-italic">Tecnologías de desarrollo usadas por nuestro equipo</p>
+        <span class="text-h3 text-bold text-secondary">Nuestra vanguardia tecnológica</span>
+        <p class="text-h6 text-italic">Lenguajes de programación usados por nuestro equipo</p>
         <div class="row justify-center text-center">
           <div class="col-1 q-ma-md">
             <q-img src="/statics/img/vue.png" />
