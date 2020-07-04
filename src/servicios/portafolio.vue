@@ -13,7 +13,7 @@
           <img src style="height:200px;" alt />
         </q-card-section>-->
         <q-card-section class="q-pa-xl">
-          <span>Un portafolio online es una forma única de mostrar su trabajo y le permite que otras personas sepan más de usted. Es una plataforma base para sus proyectos, estudios de caso, y toda la información acerca de usted. Además de esto, es una de las mejores formas para expresar su personalidad, experiencia y capacidades.</span>
+          <span>Un portafolio online es una forma única de mostrar tu trabajo y permite que otras personas sepan más de ti. Es una plataforma base para sus proyectos, estudios de caso, y toda la información acerca de usted. Además de esto, es una de las mejores formas para expresar su personalidad, experiencia y capacidades.</span>
           <br />
           <br />
           <span>Tener su propio sitio web significa que, los clientes siempre sabrán dónde localizarle y si están interesados, se pondrán en contacto con usted. Si no tiene una presencia en línea hoy en día, usted se está quedando atrás. Un portafolio es una buena forma para presentarse ante fotógrafos, diseñadores, desarrolladores y una amplia variedad de artistas para presentar su trabajo en línea. Le permite reflejar su identidad a través de sus trabajos – fotos, diseño gráfico, sketches, etc.</span>

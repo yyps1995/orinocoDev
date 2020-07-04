@@ -8,22 +8,20 @@
           </div>
         </q-card-section>
 
-        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Tiendas online</q-card-section>
-        <!-- <q-card-section class="text-center text-h2 text-bold q-pt-xl">
-          <img src style="height:200px;" alt />
-        </q-card-section>-->
+        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Tiendas virtual</q-card-section>
+
         <q-card-section class="q-pa-xl">
           <span>Una tienda virtual (o tienda online) es un sitio web donde los vendedores ponen a disposición de sus clientes los productos o servicios mostrándolos a través de imágenes o vídeos y explicando en detalle las características que estos ofrecen.</span>
           <br />
           <br />
           <span>
-            <b>Características de un Tienda Virtual</b>
+            <b>Características de una Tienda Virtual</b>
             <br />
             <br />- Permanece “abierta” todo el día. Se puede vender durante los 365 días del año.
-            <br />- Permite llegar a más clientes (amplía el mercado si es que se puede enviar el producto).
+            <br />- Permite llegar a más clientes (amplía el mercado en caso de contar con evíos del producto).
             <br />- Reduce costos. Comparada con una tienda física los costos son mucho menores.
             <br />- Incluyen un sistema de registro de usuario.
-            <br />- Incluyen un sistema de calificación. Los usuarios clasifican al vendedor sobre el producto, tiempos de entrega, etc. determinando el grado de confianza del vendedor y la calidad del producto/servicio.
+            <br />- Incluyen un sistema de calificación. Los usuarios clasifican al vendedor sobre el producto, tiempos de entrega, etc., determinando el grado de confianza del vendedor y la calidad del producto/servicio.
           </span>
           <q-card-section class="text-center text-h2 text-bold">
             <q-btn

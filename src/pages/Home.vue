@@ -35,11 +35,11 @@ html {
             :typeSpeed="200"
             :loop="true"
             :strings="[
-                  'aplicación',
+                  'aplicación móvil',
                   'página web',
                   'sistema web',
                   'tienda virtual',
-                  'api',
+                  'API',
                   'criptomoneda '
                 ]"
           >
@@ -74,16 +74,6 @@ html {
                     color="orange-5"
                   />
                 </div>
-                <!-- <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 q-ma-sm">
-                  <q-btn
-                    type="a"
-                    outline
-                    href="#planes"
-                    label="Planes"
-                    class="scrollactive-item full-width"
-                    color="orange-5"
-                  />
-                </div>-->
                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 q-ma-sm">
                   <q-btn
                     type="a"
@@ -111,7 +101,7 @@ html {
           <!-- <img src="/statics/img/flecha-verde.png" style="width: 35%" /> -->
           <p
             class="text-h6 text-italic"
-          >Desarrollamos los software que están de moda con la mejor tecnología</p>
+          >Desarrollamos el software que necesitas con la mejor tecnología</p>
           <serviciosSlide class="q-mt-xl"></serviciosSlide>
         </div>
       </div>
@@ -122,24 +112,24 @@ html {
     <div class="col-12 bg-accent q-pt-xl" style>
       <div class="row justify-center text-center">
         <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-          <span class="text-h3 text-bold text-secondary">Planes diseñados para ti</span>
+          <span class="text-h3 text-bold text-secondary">Nuestros planes</span>
           <p
             class="text-h6 text-italic"
-          >OrinocoDev cuenta con atractivo planes diseñados especialmente para ti</p>
+          >OrinocoDev cuenta con atractivos planes diseñados especialmente para ti</p>
           <br />
           <div class="row justify-center q-mt-md">
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <q-avatar size="100px" color="secondary" text-color="white">
-                    <p class="text-h3 text-bold q-mt-md">2</p>
-                    <p class="text-h6 q-mt-md">días</p>
+                  <q-avatar size="100px" color="white" text-color="white">
+                    <p class="text-h3 text-secondary text-bold q-mt-md">7</p>
+                    <p class="text-h6 text-secondary q-mt-md">días</p>
                   </q-avatar>
                   <br />
                   <span class="text-caption">Entrega</span>
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">landing page</div>
+                  <div class="text-h6 text-bold">Landing page</div>
                   <div class="text-h5 text-bold text-secondary">50$</div>
                 </q-card-section>
                 <q-separator />
@@ -151,15 +141,15 @@ html {
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <q-avatar size="100px" color="secondary" text-color="white">
-                    <p class="text-h3 text-bold q-mt-md">7</p>
-                    <p class="text-h6 q-mt-md">días</p>
+                  <q-avatar size="100px" color="white" text-color="white">
+                    <p class="text-h3 text-secondary text-bold q-mt-md">7</p>
+                    <p class="text-h6 text-secondary q-mt-md">días</p>
                   </q-avatar>
                   <br />
                   <span class="text-caption">Entrega</span>
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">portafolio</div>
+                  <div class="text-h6 text-bold">Portafolio</div>
                   <div class="text-h5 text-bold text-secondary">100$</div>
                 </q-card-section>
                 <q-separator />
@@ -171,15 +161,15 @@ html {
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <q-avatar size="100px" color="secondary" text-color="white">
-                    <p class="text-h3 text-bold q-mt-md">7</p>
-                    <p class="text-h6 q-mt-md">días</p>
+                  <q-avatar size="100px" color="white" text-color="white">
+                    <p class="text-h3 text-secondary text-bold q-mt-md">7</p>
+                    <p class="text-h6 text-secondary q-mt-md">días</p>
                   </q-avatar>
                   <br />
                   <span class="text-caption">Entrega</span>
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">blog</div>
+                  <div class="text-h6 text-bold">Blog</div>
                   <div class="text-h5 text-bold text-secondary">100$</div>
                 </q-card-section>
                 <q-separator />
@@ -191,15 +181,15 @@ html {
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
-                  <q-avatar size="100px" color="secondary" text-color="white">
-                    <p class="text-h3 text-bold q-mt-md">7</p>
-                    <p class="text-h6 q-mt-md">días</p>
+                  <q-avatar size="100px" color="white" text-color="white">
+                    <p class="text-h3 text-secondary text-bold q-mt-md">7</p>
+                    <p class="text-h6 text-secondary q-mt-md">días</p>
                   </q-avatar>
                   <br />
                   <span class="text-caption">Entrega</span>
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
-                  <div class="text-h6 text-bold">tienda online</div>
+                  <div class="text-h6 text-bold">Tienda virtual</div>
                   <div class="text-h5 text-bold text-secondary">150$</div>
                 </q-card-section>
                 <q-separator />
@@ -222,7 +212,7 @@ html {
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-xs-10 self-center">
           <span class="text-h3 text-bold text-secondary">Nuestro portafolio</span>
           <br />
-          <p class="text-h6 text-italic">Echa un vistazo a los software que hemos desarrollado</p>
+          <p class="text-h6 text-italic">Echa un vistazo a los desarrollos que hemos realizado</p>
         </div>
         <div class="col-10 q-mt-xl">
           <div class="row justify-center">
@@ -233,7 +223,7 @@ html {
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Janken</div>
-                  <span class="text-caption">Crypto-juego basado en la blockchain de hive</span>
+                  <span class="text-caption">Criptojuego basado en la blockchain de Hive</span>
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
@@ -278,7 +268,7 @@ html {
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Orinoco</div>
-                  <span class="text-caption">Pasarela de pagos de cryptos y fiats</span>
+                  <span class="text-caption">Pasarela de pagos de monedas cripto y fiat</span>
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
@@ -361,17 +351,17 @@ html {
         <div class="col-xl-5 col-lg-5 col-md-4 col-sm-12 col-xs-12 xs-hide sm-hide">
           <img src="/statics/img/forma2.png" width="100%" alt />
         </div>
-        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-10 col-xs-10 q-pa-sm text-center q-mt-xl">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10 q-pa-sm text-center q-mt-xl">
           <span class="text-h3 text-bold text-secondary">Nuestro equipo</span>
           <br />
           <div class="row justify-center">
             <div class="col-9">
               <p
                 class="text-h6 text-italic"
-              >OrinocoDev esta conformado por un equipo joven de desarrolladores para llevar tu creatividad a la realidad</p>
+              >OrinocoDev está conformado por un equipo de jóvenes venezolanos, quienes entre Desarrolladores e Ingenierios transforman tu creatividad en realidad</p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <div class="row justify-center">
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
                 <q-card
@@ -458,6 +448,57 @@ html {
                   </q-card-section>
                 </q-card>
               </div>
+              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
+                <q-card
+                  @click="openModalEquipo('Ronald Vizcaya')"
+                  dark
+                  class="bg-primary text-center my-card shadow-10 card-hover"
+                  style="width:100%; min-height:190px; border-radius:15px;"
+                >
+                  <q-card-section>
+                    <q-avatar size="60px">
+                      <img src="/statics/img/ronalFotoCarnet.jpg" />
+                    </q-avatar>
+                  </q-card-section>
+                  <q-card-section>
+                    <span class="text-h6">Ronald Vizcaya</span>
+                  </q-card-section>
+                </q-card>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
+                <q-card
+                  @click="openModalEquipo('Ronald Vizcaya')"
+                  dark
+                  class="bg-primary text-center my-card shadow-10 card-hover"
+                  style="width:100%; min-height:190px; border-radius:15px;"
+                >
+                  <q-card-section>
+                    <q-avatar size="60px">
+                      <img src="/statics/img/ronalFotoCarnet.jpg" />
+                    </q-avatar>
+                  </q-card-section>
+                  <q-card-section>
+                    <span class="text-h6">Ronald Vizcaya</span>
+                  </q-card-section>
+                </q-card>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
+                <q-card
+                  @click="openModalEquipo('Ronald Vizcaya')"
+                  dark
+                  class="bg-primary text-center my-card shadow-10 card-hover"
+                  style="width:100%; min-height:190px; border-radius:15px;"
+                >
+                  <q-card-section>
+                    <q-avatar size="60px">
+                      <img src="/statics/img/ronalFotoCarnet.jpg" />
+                    </q-avatar>
+                  </q-card-section>
+                  <q-card-section>
+                    <span class="text-h6">Ronald Vizcaya</span>
+                  </q-card-section>
+                </q-card>
+              </div>
             </div>
           </div>
         </div>
@@ -465,11 +506,11 @@ html {
     </div>
     <!-- FIN SECCION EQUIPO -->
 
-    <div class="row" style="margin-top:-1px;">
+    <!-- <div class="row" style="margin-top:-1px;">
       <div class="col-12">
         <img src="/statics/img/forma3.svg" alt />
       </div>
-    </div>
+    </div>-->
 
     <!-- PORTAFOLIO MODAL -->
     <q-dialog position="right" v-model="portafolioDialog" persistent :maximized="maximizedToggle">
@@ -483,12 +524,12 @@ html {
           <div v-if="this.name === 'orinoco'">
             <span class="text-h3 text-bold">Orinoco.io</span>
             <br />
-            <span class="text-h6">Pasarela de pagos de criptos y fiats</span>
+            <span class="text-h6">Pasarela de pagos de monedas cripto y fiat</span>
           </div>
           <div v-if="this.name === 'janken'">
             <span class="text-h3 text-bold">Janken.game</span>
             <br />
-            <span class="text-h6">Crypto-juego basado en la blockchain de hive</span>
+            <span class="text-h6">Criptojuego basado en la blockchain de Hive</span>
           </div>
           <div v-if="this.name === 'tasa'">
             <span class="text-h3 text-bold">Tasa.cash</span>
@@ -542,14 +583,13 @@ html {
             </div>
             <div class="row justify-center q-mt-lg">
               <div class="col-12">
-                - conexion con la api de la blockchain de steem
+                - Conexión con la API de la blockchain de Steem
                 <br />
-                <br />- conexion con la api de la blockchain de hive
+                <br />- Conexión con la API de la blockchain de Hive
                 <br />
-                <br />- conexion con la api de la blockchain de bitcoin
+                <br />- Conexión con la API de la blockchain de Bitcoin
                 <br />
-                <br />
-- conexion con la api de la blockchain de eos
+                <br />- Conexión con la API de la blockchain de EOS
               </div>
             </div>
           </span>
@@ -1040,29 +1080,29 @@ html {
           >Una landing page, o página de aterrizaje, es una página web diseñada específicamente para convertir visitantes en leads.</span>
           <span
             v-if="this.plan === 'portafolio'"
-          >Un portafolio online es una forma única de mostrar su trabajo y le permite que otras personas sepan más de usted. Es una plataforma base para sus proyectos, estudios de caso, y toda la información acerca de usted. Además de esto, es una de las mejores formas para expresar su personalidad, experiencia y capacidades.</span>
+          >Un portafolio online es una forma única de mostrar tu trabajo y permite que otras personas sepan más de ti. Es una plataforma base para tus proyectos, estudios de caso, y toda la información acerca de ti. Además, es una de las mejores formas para expresar tu personalidad, experiencia y capacidades.</span>
           <span
             v-if="this.plan === 'blog'"
-          >Un blog es un sitio web en el que se va publicando contenido cada cierto tiempo en forma de artículos (también llamados posts) ordenados por fecha de publicación, así el artículo más reciente aparecerá primero.</span>
+          >Un blog es un sitio web para publicar contenido cada cierto tiempo en forma de artículos (también llamados posts) ordenados por fecha de publicación, así el artículo más reciente aparecerá primero.</span>
           <span
             v-if="this.plan === 'tienda online'"
           >Una tienda virtual (o tienda online) es un sitio web donde los vendedores ponen a disposición de sus clientes los productos o servicios mostrándolos a través de imágenes o vídeos y explicando en detalle las características que estos ofrecen.</span>
           <br />
           <br />
-          <span class="text-h6">Caracteristicas de nuestro plan:</span>
+          <span class="text-h6">Características de nuestro plan:</span>
           <br />
           <br />
           <span v-if="this.plan === 'landing page'">
-            - Páginas Ilimitadas Disponibles
-            <br />- Diseño Web (1-5 Pestañas)
-            <br />- Catalogo de Productos o Servicios
-            <br />- Adaptado a Smartphone y Tablet
-            <br />- Hosting y Correos Corporativos
-            <br />- Videos, Formularios, Galerías
-            <br />- Incluye Dominio 1 año
-            <br />- Entrega Express
+            - Páginas ilimitadas disponibles
+            <br />- Diseño web (1-5 Pestañas)
+            <br />- Catálogo de productos o pervicios
+            <br />- Adaptado a smartphone y tablet
+            <br />- Hosting y correos corporativos
+            <br />- Videos, formularios, galerías
+            <br />- Incluye dominio 1 año (ciertas condiciones aplican)
+            <br />- Entrega express
             <br />
-            <br />Plan desde 50$
+            <br />50$
             <br />
             <br />
             <q-btn

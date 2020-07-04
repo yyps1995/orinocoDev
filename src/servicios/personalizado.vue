@@ -11,9 +11,9 @@
         <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Sistema Web</q-card-section>
         <q-card-section class="q-pa-xl">
           <span>
-            Se denomina sistema web a aquellas aplicaciones de software que puede utilizarse accediendo a un servidor web a través de Internet o de una intranet mediante un navegador.
+            Se denomina sistema web a aquellas aplicaciones de software que pueden utilizarse accediendo a un servidor web a través de Internet o de una intranet mediante un navegador.
             <br />
-            <br />Las aplicaciones web son muy usadas hoy en día, debido a lo práctico del navegador web como cliente ligero, a la independencia del sistema operativo y otras ventajas que te contamos ahora:
+            <br />Los sistemas web son muy usados hoy en día, debido a lo práctico del navegador web como cliente ligero, a la independencia del sistema operativo.
           </span>
           <q-card-section class="text-center text-h2 text-bold">
             <q-btn
@@ -41,14 +41,6 @@
           <q-input filled dark v-model="nombre" label="Nombre" />
           <q-input filled dark v-model="apellido" label="Apellido" />
           <q-input filled dark v-model="servicio" label="servicio" disable />
-          <!-- <q-input
-            dark
-            class="q-mt-md"
-            label="Caracteristicas"
-            v-model="caracterisiticas"
-            filled
-            type="textarea"
-          />-->
         </q-card-section>
 
         <q-card-section class="text-center text-h2 text-bold">

@@ -13,7 +13,7 @@
           </q-card-section>
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Tienda Virtual</div>
+            <div class="text-h5 text-bold">Tienda virtual</div>
           </q-card-section>
 
           <q-separator />
@@ -30,7 +30,7 @@
           </q-card-section>
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Aplicacíon</div>
+            <div class="text-h5 text-bold">Aplicación móvil</div>
           </q-card-section>
 
           <q-separator />
@@ -101,7 +101,7 @@
           </q-card-section>
 
           <q-card-section class="q-pt-none">
-            <div class="text-h5 text-bold">Api</div>
+            <div class="text-h5 text-bold">API</div>
           </q-card-section>
 
           <q-separator />

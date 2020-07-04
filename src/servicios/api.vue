@@ -8,12 +8,11 @@
           </div>
         </q-card-section>
 
-        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">Apis</q-card-section>
+        <q-card-section class="text-center text-h2 text-secondary text-bold q-pt-xl">API</q-card-section>
         <q-card-section class="q-pa-xl">
           <span>
-            Una API (siglas de ‘Application Programming Interface’) es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas: sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano-software.
+            Una API (siglas de ‘Application Programming Interface’) es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas, sirviendo de puente entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano - software.
             <br />
-            <br />Las API pueden servir para comunicarse con el sistema operativo (WinAPI), con bases de datos (DBMS) o con protocolos de comunicaciones (Jabber/XMPP). En los últimos años, por supuesto, se han sumado múltiples redes sociales (Twitter, Facebook, Youtube, Flickr, LinkedIn, etc) y otras plataformas online (Google Maps, WordPress…), lo que ha convertido el social media marketing es algo más sencillo, más rastreable y, por tanto, más rentable.
           </span>
           <q-card-section class="text-center text-h2 text-bold">
             <q-btn
