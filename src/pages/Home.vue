@@ -268,7 +268,7 @@ html {
                 </q-card-section>
                 <q-card-section class="q-pt-none text-center">
                   <div class="text-h6 text-bold">Orinoco</div>
-                  <span class="text-caption">Pasarela de pagos de monedas cripto y fiat</span>
+                  <span class="text-caption">Pasarela de pagos de monedas cripto y fiduciarias</span>
                 </q-card-section>
                 <q-separator />
                 <q-card-actions align="center">
@@ -358,10 +358,10 @@ html {
             <div class="col-9">
               <p
                 class="text-h6 text-italic"
-              >OrinocoDev está conformado por un equipo de jóvenes venezolanos, quienes entre Desarrolladores e Ingenierios transforman tu creatividad en realidad</p>
+              >OrinocoDev está conformado por un equipo de jóvenes venezolanos, quienes entre Desarrolladores e Ingenieros transforman tu creatividad en realidad</p>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12">
             <div class="row justify-center">
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
                 <q-card
@@ -376,7 +376,7 @@ html {
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Ariana Toro</span>
+                    <span class="text-caption text-italic">Ariana Toro</span>
                   </q-card-section>
                 </q-card>
               </div>
@@ -393,7 +393,7 @@ html {
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Anderson Perales</span>
+                    <span class="text-caption text-italic">Anderson Perales</span>
                   </q-card-section>
                 </q-card>
               </div>
@@ -410,7 +410,7 @@ html {
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Jonathan Pérez</span>
+                    <span class="text-caption text-italic">Jonathan Pérez</span>
                   </q-card-section>
                 </q-card>
               </div>
@@ -427,10 +427,12 @@ html {
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Elias Estrabao</span>
+                    <span class="text-caption text-italic">Elias Estrabao</span>
                   </q-card-section>
                 </q-card>
               </div>
+            </div>
+            <div class="row justify-center">
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
                 <q-card
                   @click="openModalEquipo('Ronald Vizcaya')"
@@ -444,58 +446,58 @@ html {
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Ronald Vizcaya</span>
+                    <span class="text-caption text-italic">Ronald Vizcaya</span>
                   </q-card-section>
                 </q-card>
               </div>
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
                 <q-card
-                  @click="openModalEquipo('Ronald Vizcaya')"
+                  @click="openModalEquipo('José Alejandro')"
                   dark
                   class="bg-primary text-center my-card shadow-10 card-hover"
                   style="width:100%; min-height:190px; border-radius:15px;"
                 >
                   <q-card-section>
                     <q-avatar size="60px">
-                      <img src="/statics/img/ronalFotoCarnet.jpg" />
+                      <img src="/statics/img/joseFotoCarnet.jpg" />
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Ronald Vizcaya</span>
+                    <span class="text-caption text-italic">José Alejandro</span>
                   </q-card-section>
                 </q-card>
               </div>
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
                 <q-card
-                  @click="openModalEquipo('Ronald Vizcaya')"
+                  @click="openModalEquipo('Cesar Amaya')"
                   dark
                   class="bg-primary text-center my-card shadow-10 card-hover"
                   style="width:100%; min-height:190px; border-radius:15px;"
                 >
                   <q-card-section>
                     <q-avatar size="60px">
-                      <img src="/statics/img/ronalFotoCarnet.jpg" />
+                      <img src="/statics/img/cesarFotoCarnet.jpg" />
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Ronald Vizcaya</span>
+                    <span class="text-caption text-italic">Cesar Amaya</span>
                   </q-card-section>
                 </q-card>
               </div>
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 q-pa-xs">
                 <q-card
-                  @click="openModalEquipo('Ronald Vizcaya')"
+                  @click="openModalEquipo('Andreina Avellaneda')"
                   dark
                   class="bg-primary text-center my-card shadow-10 card-hover"
                   style="width:100%; min-height:190px; border-radius:15px;"
                 >
                   <q-card-section>
                     <q-avatar size="60px">
-                      <img src="/statics/img/ronalFotoCarnet.jpg" />
+                      <img src="/statics/img/andreinaFotoCarnet.jpg" />
                     </q-avatar>
                   </q-card-section>
                   <q-card-section>
-                    <span class="text-h6">Ronald Vizcaya</span>
+                    <span class="text-caption text-italic">Andreina Avellaneda</span>
                   </q-card-section>
                 </q-card>
               </div>
@@ -832,6 +834,21 @@ html {
                   src="/statics/img/ronalFotoCarnet.jpg"
                   alt
                 />
+                <img
+                  v-if="this.nombre === 'Cesar Amaya'"
+                  src="/statics/img/cesarFotoCarnet.jpg"
+                  alt
+                />
+                <img
+                  v-if="this.nombre === 'José Alejandro'"
+                  src="/statics/img/joseFotoCarnet.jpg"
+                  alt
+                />
+                <img
+                  v-if="this.nombre === 'Andreina Avellaneda'"
+                  src="/statics/img/andreinaFotoCarnet.jpg"
+                  alt
+                />
               </q-avatar>
             </q-card-section>
             <q-card-section class="text-h4 text-orange-5 text-bold">
@@ -853,6 +870,15 @@ html {
               >Me gusta la innovación y la tecnología y el modo en que facilitan los procesos en la actualidad</span>
               <span
                 v-if="this.nombre === 'Ronald Vizcaya'"
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
+              <span
+                v-if="this.nombre === 'José Alejandro'"
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
+              <span
+                v-if="this.nombre === 'Andreina Avellaneda'"
+              >Social Media Manager, Ingeniera apasionada a las redes sociales, responsable de nuestra impecable ortografía y redacción.</span>
+              <span
+                v-if="this.nombre === 'Cesar Amaya'"
               >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, voluptatibus numquam unde excepturi magnam iste aspernatur inventore soluta rerum accusamus, obcaecati vel pariatur molestias, laboriosam nisi. Optio est corrupti porro?</span>
             </q-card-section>
             <q-card-section>
