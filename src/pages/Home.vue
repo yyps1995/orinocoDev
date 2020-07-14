@@ -112,13 +112,80 @@ html {
     <div class="col-12 bg-accent q-pt-xl" style>
       <div class="row justify-center text-center">
         <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-          <span class="text-h3 text-bold text-secondary">Nuestros planes</span>
+          <span class="text-h3 text-bold text-secondary">Nuestro plan basico</span>
           <p
             class="text-h6 text-italic"
           >OrinocoDev cuenta con atractivos planes diseñados especialmente para ti</p>
           <br />
           <div class="row justify-center q-mt-md">
             <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
+              <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
+                <q-card-section>
+                  <q-avatar size="100px" color="white" text-color="white">
+                    <p class="text-h3 text-secondary text-bold q-mt-md">7</p>
+                    <p class="text-h6 text-secondary q-mt-md">días</p>
+                  </q-avatar>
+                  <br />
+                  <span class="text-caption">Entrega</span>
+                </q-card-section>
+                <q-card-section class="q-pt-none text-center">
+                  <div class="text-h6 text-bold">Landing page</div>
+                  <div class="text-h5 text-bold text-secondary">50$</div>
+                </q-card-section>
+                <q-separator />
+                <q-card-actions align="center">
+                  <q-btn flat color="orange-5" @click="planesModal('landing page')">Ver plan</q-btn>
+                </q-card-actions>
+              </q-card>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 self-center q-pa-md">
+              <q-card class="my-card shadow-13 bg-primary" style="border-radius:15px;" dark>
+                <q-card-section horizontal>
+                  <q-img class="col-5" src="/statics/img/orinoco-gym.png" />
+                  <q-card-section class="self-center">OrinocoGym</q-card-section>
+                  <q-card-section class="self-center">
+                    <q-btn
+                      type="a"
+                      target="_blank"
+                      href="https://orinocogym.now.sh/#/"
+                      flat
+                      color="secondary"
+                    >Visitar</q-btn>
+                  </q-card-section>
+                </q-card-section>
+              </q-card>
+              <q-card class="my-card shadow-13 bg-primary q-mt-sm" style="border-radius:15px;" dark>
+                <q-card-section horizontal>
+                  <q-img class="col-5" src="/statics/img/orinoco-vet.png" />
+                  <q-card-section class="self-center">OrinocoVet</q-card-section>
+                  <q-card-section class="self-center">
+                    <q-btn
+                      type="a"
+                      target="_blank"
+                      href="https://orinoco-vet.vercel.app/#/"
+                      flat
+                      color="secondary"
+                    >Visitar</q-btn>
+                  </q-card-section>
+                </q-card-section>
+              </q-card>
+              <q-card class="my-card shadow-13 bg-primary q-mt-sm" style="border-radius:15px;" dark>
+                <q-card-section horizontal>
+                  <q-img class="col-5" src="/statics/img/portadaorinocofotos.png" />
+                  <q-card-section class="self-center">OrinocoPhotos</q-card-section>
+                  <q-card-section class="self-center">
+                    <q-btn
+                      type="a"
+                      target="_blank"
+                      href="https://orinoco-drink.vercel.app/#/"
+                      flat
+                      color="secondary"
+                    >Visitar</q-btn>
+                  </q-card-section>
+                </q-card-section>
+              </q-card>
+            </div>
+            <!-- <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6 q-pa-md">
               <q-card class="my-card shadow-13 bg-primary" style="width:100%; border-radius:15px;">
                 <q-card-section>
                   <q-avatar size="100px" color="white" text-color="white">
@@ -197,7 +264,7 @@ html {
                   <q-btn flat color="orange-5" @click="planesModal('tienda online')">Ver plan</q-btn>
                 </q-card-actions>
               </q-card>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
@@ -508,11 +575,67 @@ html {
     </div>
     <!-- FIN SECCION EQUIPO -->
 
-    <!-- <div class="row" style="margin-top:-1px;">
-      <div class="col-12">
-        <img src="/statics/img/forma3.svg" alt />
+    <!-- SECCION PAGO -->
+    <!-- <div class="row justify-center text-center">
+      <div class="col-12 bg-accent" style="min-height:50vh;">
+        <span class="text-h3 text-secondary text-bold">Nuestros métodos de pago</span>
+        <br />
+        <div class="row justify-center">
+          <div class="col-8">
+            <span
+              class="text-h6 text-italic"
+            >OrinocoDev te ofrece diversos metodos de pago para que no tengas incovenientes al momento de contratar tu desarrollo</span>
+          </div>
+        </div>
+        <div class="row justify-center">
+          <div class="col-10">
+            <div class="row justify-center">
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+              <div class="col-1 q-pt-xl">
+                <q-avatar size="100px" color="white" text-color="white"></q-avatar>
+                <br />
+                <span class="text-caption">Bitcoin</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>-->
+    <!-- FIN SECCION PAGO -->
 
     <!-- PORTAFOLIO MODAL -->
     <q-dialog position="right" v-model="portafolioDialog" persistent :maximized="maximizedToggle">
